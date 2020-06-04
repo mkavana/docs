@@ -1,0 +1,13 @@
+<div id="quickstart-builder">
+    <h2>It is essential that you complete the following guides to make a contribution</h2>
+    <ul>
+        {% assign page_names = site.posts %}
+        {% for page_name in page_names reversed %}
+        {% if page_name.include-in-quickstart != "false" %}
+        <li>
+            <a href="{{ site.baseurl }}{{ page_name.url }}">{{ page_name.title }}</a>
+        </li>
+        {% endif%}
+        {% endfor %}
+    </ul>
+</div>

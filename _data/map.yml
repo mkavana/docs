@@ -1,0 +1,68 @@
+-
+  # quick start
+  GitHub: _posts/01-quickstart/2020-06-01-quickstart.md
+  AzDev: azdev/_posts/01-quickstart/2020-06-01-az-quickstart.md
+-
+  # workflow > author process
+  GitHub: _posts/05-workflow/2020-06-03-author-process.md
+  AzDev: azdev/_posts/05-workflow/2020-06-03-az-author-process.md
+-
+  # workflow > tr process
+  GitHub: _posts/05-workflow/2020-06-04-tr-process.md
+  AzDev: azdev/_posts/05-workflow/2020-06-04-az-tr-process.md
+-
+  # workflow > id review process
+  GitHub: _posts/05-workflow/2020-06-05-id-process.md
+  AzDev: azdev/_posts/05-workflow/2020-06-05-az-id-process.md
+-
+  # workflow > ce review process
+  GitHub: _posts/05-workflow/2020-06-06-ce-process.md
+  AzDev: azdev/_posts/05-workflow/2020-06-06-az-ce-process.md
+-
+  # workflow > test process
+  GitHub: _posts/05-workflow/2020-06-07-test-process.md
+  AzDev: azdev/_posts/05-workflow/2020-06-07-az-test-process.md
+-
+  # download files > view in browser
+  GitHub: _posts/07-download-files/2020-06-01-view-in-browser.md
+  AzDev: azdev/_posts/07-download-files/2020-06-01-az-view-in-browser.md
+-
+  # download files > clone repo
+  GitHub: _posts/07-download-files/2020-06-02-clone-repo.md
+  AzDev: azdev/_posts/07-download-files/2020-06-02-az-clone-repo.md
+-
+  # branches > create new branch
+  GitHub: _posts/09-branches/2020-06-02-new-branch.md
+  AzDev: azdev/_posts/09-branches/2020-06-02-az-new-branch.md
+-
+  # branches > update branch
+  GitHub: _posts/09-branches/2020-06-04-pull-updates.md
+  AzDev: azdev/_posts/09-branches/2020-06-04-az-pull-updates.md
+-
+  # branches > switch branch
+  GitHub: _posts/09-branches/2020-06-03-switch-branch.md
+  AzDev: azdev/_posts/09-branches/2020-06-03-az-switch-branch.md
+-
+  # branches > recover deleted branch
+  GitHub: _posts/09-branches/2020-06-08-recover-branch.md
+  AzDev: azdev/_posts/09-branches/2020-06-07-az-recover-branch.md
+-
+  # add content > edit in browser
+  GitHub: _posts/11-add-content/2020-06-02-edit-in-browser.md
+  AzDev: azdev/_posts/11-add-content/2020-06-02-az-edit-in-browser.md
+-
+  # pull requests > create pull request
+  GitHub: _posts/13-pull-requests/2020-06-02-create-pr.md
+  AzDev: azdev/_posts/13-pull-requests/2020-06-02-az-create-pr.md
+-
+  # pull requests > work in pull request
+  GitHub: _posts/13-pull-requests/2020-06-03-work-in-pr.md
+  AzDev: azdev/_posts/13-pull-requests/2020-06-03-az-work-in-pr.md
+-
+  # pull requests > merge pull request
+  GitHub: _posts/13-pull-requests/2020-06-04-merge-pr.md
+  AzDev: azdev/_posts/13-pull-requests/2020-06-04-az-merge-pr.md
+-
+  # pull requests > resolve merge conflicts
+  GitHub: _posts/13-pull-requests/2020-06-05-merge-conflicts.md
+  AzDev: azdev/_posts/13-pull-requests/2020-06-05-az-merge-conflicts.md

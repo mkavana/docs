@@ -1,0 +1,11 @@
+<div id="video_embed">
+    {% if page.video_url != "none" %}
+    <h2>Video</h2>
+    <p>Watch the following video (optional).</p>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="{{ page.video_url }}?rel=0" allowfullscreen></iframe>
+    </div>
+    {% else %}
+        <p></p>
+    {% endif %}
+</div>
