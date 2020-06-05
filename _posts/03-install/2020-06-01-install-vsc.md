@@ -51,6 +51,8 @@ Complete the following steps to download and install VSC.
 
     ![VSC finish installation](../assets/images/03-install/vsc/vscode-007.png)
 
+You have downloaded and installed VSC successfully.
+
 {% include appendices.html %}
 
 {% include paginator.html %}
