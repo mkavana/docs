@@ -4,7 +4,7 @@ title: Install Visual Studio Code
 subtitle:
 description: Guide to downloading and installing the Visual Studio Code source code editor
 author: mkavana
-date: 05 Jun 2020
+date: 01 Jun 2020
 post-number: 3.1
 category: install
 position-in-category: 1
