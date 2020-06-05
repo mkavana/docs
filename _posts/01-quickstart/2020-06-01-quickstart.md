@@ -8,7 +8,7 @@ date: 01 Jun 2020
 post-number: 1.1
 category: quickstart
 position-in-category: 1
-include-in-pre-reqs: "true"
+include-in-pre-reqs: "false"
 include-in-quickstart: "false"
 video_url: "none"
 ---
