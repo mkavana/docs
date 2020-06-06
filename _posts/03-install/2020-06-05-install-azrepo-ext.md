@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Install Azure Repos extension
-subtitle: Azure DevOps only
+subtitle: Azure DevOps repositories only
 description: Guide to downloading and installing Microsoft's Azure Repos extension
 author: mkavana
 date: 01 Jun 2020
