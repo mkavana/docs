@@ -15,7 +15,7 @@ video_url: "none"
 
 This guide describes how to download and install Microsoft's **Word Count** extension for the Visual Studio Code (VSC) editor. The Word Count extension displays the total the number of words present in a file opened in VSC (i.e. "word count").
 
-> **Note**: More information about the Word Count extension is available from the page [Marketplace: WordCount](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount).
+> **Note**: More information about the Word Count extension is available from the Visual Studio Marketplace webpage [WordCount](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount).
 
 {% include prerequisites.html %}
 

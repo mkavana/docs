@@ -59,7 +59,7 @@ Complete the following steps to download and install Microsoft's Docs Authoring 
 
 You have downloaded and installed the Microsoft Docs Authoring Pack extension for VSC successfully.
 
-> **Note**: For more information about using the Microsoft Docs Authoring Pack see the pages [Announcing the Docs Markdown Extension for Visual Studio Code](https://docs.microsoft.com/teamblog/docs-extension) and [Visual Studio Marketplace: Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+> **Note**: For more information about using the Microsoft Docs Authoring Pack see the pages [Announcing the Docs Markdown Extension for Visual Studio Code](https://docs.microsoft.com/teamblog/docs-extension) and the Visual Studio Marketplace webpage [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 {% include appendices.html %}
 

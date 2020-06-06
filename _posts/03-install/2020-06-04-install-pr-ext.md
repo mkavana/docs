@@ -17,7 +17,7 @@ This guide describes how to download and install the **GitHub Pull Requests and 
 
 > **Note**: Only complete this guide if the course you are working on uses a GitHub repository. The extension described in this guide is *not required* for courses that use an Azure DevOps repository. If you are unsure, check with your project manager.
 >
-> More information about the extension is available from the webpage [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github).
+> More information about the extension is available from the Visual Studio Marketplace webpage [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github).
 
 {% include prerequisites.html %}
 
