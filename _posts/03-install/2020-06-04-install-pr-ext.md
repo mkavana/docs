@@ -15,7 +15,7 @@ video_url: "none"
 
 This guide describes how to download and install the **GitHub Pull Requests and Issues** extension for Visual Studio Code (VSC). The extension connects VSC to GitHub for managing changes made to the course files from within VSC.
 
-> **Note**: Only complete this guide if the course you are working on uses a GitHub repository. The extension described in this guide is *not required* for courses that use an *Azure DevOps* repository. If you are unsure, check with your project manager.
+> **Note**: Only complete this guide if the course you are working on uses a GitHub repository. The extension described in this guide is *not required* for courses that use an Azure DevOps repository. If you are unsure, check with your project manager.
 >
 > More information about the extension is available from the webpage [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github).
 
