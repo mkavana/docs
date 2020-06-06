@@ -2,8 +2,8 @@
 layout: page
 title: Install Pull Requests extension
 subtitle: GitHub repositories only
-description:
-author:
+description: Guide to downloading and installing the GitHub Pull Requests and Issues extension for Visual Studio Code.
+author: mkavana
 date: 01 Jun 2020
 post-number: 3.4
 category: install
