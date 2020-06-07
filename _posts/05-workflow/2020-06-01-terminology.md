@@ -54,7 +54,7 @@ You can upload a Git repo from your computer to the GitHub website or to Azure R
 
 A repo on *your* computer or network is called a **local** repo. A repo on *another* computer, like a GitHub or Azure Repos server, is called a **remote** repo. Services like GitHub and Azure Repos make it possible for multiple contributors to clone the same remote repo onto their (local) computers. Git will track the changes made to every file in each contributor's local repo. Contributors then push changes from their respective local repos back to the remote repo to share their work.
 
-![Diagram of two local repos sharing a single remote repo](../assets/images/05-workflow/terminology/02-repo-type.png)
+![Diagram of two local repos sharing a single remote repo](../assets/images/05-workflow/terminology/01-repo-type.png)
 
 ## Topic 3: How changes to files are tracked using branches {#topic3}
 
@@ -68,11 +68,11 @@ A common practice is to maintain a **master** branch within a repo, like "clean 
 
 The contents of all contributors' branches will be combined with (or **merged** back into) the master, after all development and editing work has been completed. Then, the finalized files from the master branch will be converted into Microsoft Word documents (DOCX).
 
-![Diagram of how a single git branch relates to master](../assets/images/05-workflow/terminology/03-single-branch.png)
+![Diagram of how a single git branch relates to master](../assets/images/05-workflow/terminology/02-single-branch.png)
 
 Services like GitHub and Azure Repos make it possible to share and combine the work of many contributors, from across multiple branches and local repos, into the master branch of a single remote repo.
 
-![Diagram of how multiple git branch are merged into master](../assets/images/05-workflow/terminology/04-multi-branch.png)
+![Diagram of how multiple git branch are merged into master](../assets/images/05-workflow/terminology/03-multi-branch.png)
 
 > **Note**: For more information about creating a new branch, read [Create new branch]({{ site.baseurl }}/branches/new-branch.html).
 
@@ -106,7 +106,7 @@ All content developed for the project must be reviewed at various stages in the 
 
 The following image illustrates how branching, pull requests and merging apply to the review process in general.
 
-![Diagram of how branching, pull requests and merging relate to the review process](../assets/images/05-workflow/terminology/05-review-process.png)
+![Diagram of how branching, pull requests and merging relate to the review process](../assets/images/05-workflow/terminology/04-review-process.png)
 
 > **Note**: The previous image is not intended to illustrate the full details of how branching, pull requests and merging apply to the review process. The image shows the general review process instead. The review process can vary in accordance with project requirements and the type of review.
 >
@@ -114,7 +114,7 @@ The following image illustrates how branching, pull requests and merging apply t
 
 The following diagram exemplifies some of the branching structure required for single module, as part of a typical review process.
 
-![Diagram of some of the branching structure required for single module, as part of a typical review process](../assets/images/05-workflow/terminology/07-complex-branches.png)
+![Diagram of some of the branching structure required for single module, as part of a typical review process](../assets/images/05-workflow/terminology/05-complex-branches.png)
 
 > **Note**: The previous image provides an example of how branching applies to the review process in general. The branching requirements can vary between projects. Ask your project manager about the specific branching requirements for the course you are working on.
 
