@@ -75,18 +75,20 @@ Generally, an author creates an authoring branch from the master branch of the p
 `m <module number> auth <author's surname>`:
 
 - The prefix `m` is for “module”.
-- `<module number>` refers to the module number that the file you are working on belongs to.
+- `<module number>` refers to the module number that the file to be reviewed belongs to.
 - `auth` is a short code for "content authoring" i.e. the stage in the process the file is at.
 - The author's `<surname>` is added as a suffix to distinguish the author's work from other contributors.
 
 ### Example authoring branch name
 
-The following explains how the example authoring branch named **m6authlee** is constructed.
+The following explains how the example authoring branch name `m6authlee` is constructed.
 
-- Number of the module the file belongs to = **6**.
-- Task short code for content authoring = **auth**.
-- Author's surname = **Lee**.
-- Author's resulting branch name = **m6authlee**.
+- `m` is an abbreviation for "module".
+- `6` is the number of the module that the file belongs to.
+- `auth` is a short code for "content authoring".
+- `lee` is a reference to the author's surname.
+
+Putting the previous items together results in the authoring branch name `m6authlee`.
 
 ## Topic 3: Submitting your content for review {#topic3}
 
