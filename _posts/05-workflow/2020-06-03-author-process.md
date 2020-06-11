@@ -70,37 +70,40 @@ The following diagram and accompanying steps provide an overview of the general 
 
 Each author must work in their own authoring branch. A separate authoring branch for each module is also required. This approach keeps the content separated per author, at each stage in the process, and on a module by module basis.
 
-Generally, an author creates an authoring branch from the master branch of the project's remote repo using the guide [Create new branch]({{site.baseurl}}/branches/new-branch.html). When you create a new authoring branch, your branch name should describe your branch's content and make the branch's purpose and owner clear to other contributors.
+Generally, an author creates an authoring branch from the master branch of the project's remote repo using the guide [Create new branch]({{site.baseurl}}/branches/new-branch.html). When you create a new authoring branch, your branch name should describe your branch's content and make the branch's purpose and owner clear to other contributors. Authoring branches use the following naming convention (all lower case):
 
-Apply the following branch naming convention (all lower case) to your new authoring branch:
-
-`m <module number> auth <author's surname>`
+`m <module number> auth <author's surname>`:
 
 - The prefix `m` is for “module”.
-- `<module number>` is the module number that the file you are working on belongs to.
+- `<module number>` refers to the module number that the file you are working on belongs to.
 - `auth` is a short code for "content authoring" i.e. the stage in the process the file is at.
-- Add your `<surname>` as a suffix to distinguish your work from the work of other contributors.
+- The author's `<surname>` is added as a suffix to distinguish the author's work from other contributors.
 
 ### Example authoring branch name
 
-The following is an example of how to name an authoring branch.
+The following explains how the example authoring branch named **m6authlee** is constructed.
 
-- Number of the module I am writing content for = **6**.
+- Number of the module the file belongs to = **6**.
 - Task short code for content authoring = **auth**.
-- My surname = **Lee**.
-- My resulting branch name = **m6authlee**.
+- Author's surname = **Lee**.
+- Author's resulting branch name = **m6authlee**.
 
 ## Topic 3: Submitting your content for review {#topic3}
 
-All content developed for the project must be reviewed at various stages in the project’s life cycle. Most projects require Technical, Educational, Instructional Design and Inclusively reviews, as well as Copy Editing, and Compliance and Plagiarism Testing (among others).
+All content developed for the project must be reviewed at various stages in the project’s life cycle. Most projects require Technical, Educational, Instructional Design and Inclusively reviews, as well as Copy Editing, and Compliance and Plagiarism Testing (among others). Typically, a content author initiates a review by sending an email to the reviewer to request a review. The author's email *must* provide the following details:
+
+- **Module number**: The module number that the file for review belongs to.
+- **Task type**: The type of review required (i.e. technical review, instructional design review, copy edit, etc.).
+- **Source branch name**: The name of the branch that the file for review is on. This is also referred to as the **compare** or **originating** branch.
+- **Target branch**: The name of the branch that the corrected/ changed file will be merged into, after the review is completed. This is also referred to as the **base** branch, and examples include the **master** or **originating** branch, etc.
+
+How and when authors submit their content for review can vary in accordance with a project's requirements and the type of review. For example, changes made during a Technical Review might be applied directly to an author’s branch by the Technical Reviewer. An Instructional Design reviewer might work on their own reviewer branch, created from master, to apply changes to an author's content, and then merge their reviewer’s branch back into master. Furthermore, other reviewers might conduct reviews or apply edits outside of the repo's branches.
+
+> **Note**: Ask your project manager about the specific review processes that apply to the course you are working on. Information about specific review processes is available from the guides in the remainder of the **Workflow and processes** section.
 
 The following diagram exemplifies some of the branching structure required for single module, as part of a typical review process.
 
 ![Diagram of the branching structure required for single module, as part of a typical review process](../assets/images/05-workflow/author/github/02-branch-structure.png)
-
-How and when authors submit their content for review can vary in accordance with a project's requirements and the type of review. For example, changes made during a Technical Review might be applied directly to an author’s branch by the Technical Reviewer. An Instructional Design reviewer might work on their own reviewer branch, created from master, to apply changes to an author's content, and then merge their reviewer’s branch back into master. Furthermore, other reviewers might conduct reviews or apply edits outside of the repo's branches.
-
-> **Note**: Ask your project manager about the specific review processes that apply to the course you are working on. Information about specific review processes is available from the guides in the remainder of the **Workflow and processes** section
 
 ## Topic 4: Key points about the content authoring process {#topic4}
 
