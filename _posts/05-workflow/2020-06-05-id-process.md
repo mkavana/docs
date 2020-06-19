@@ -15,10 +15,8 @@ video_url: "none"
 
 <!--
   Todo:
-    - Resolve issues/ questions in the comments in this topic section.
-    - Verify the steps are accurate.
-    - Add images and alt text, on path:
-        ![Alt image text placeholder](../assets/images/05-workflow/id-process/github/img-placeholder.png)
+    - Add summary to Topic 4 and id process diagram on path:
+        ![Alt image text placeholder](../assets/images/05-workflow/id-process/github/id-workflow.png)
     - Check for broken links
 -->
 
@@ -39,13 +37,14 @@ This guide describes the general **Instructional Design (ID) Review** process fo
 
 ## Topic 1: How an ID review is initiated {#topic1}
 
-A content author initiates a review by sending an email to the reviewer to request an ID review. The author's email provides the following details:
+A content author initiates a review by sending an email to the reviewer to request an ID review. An ID review is usually requested when the author has completed content for a course module. The author's email provides the following details:
 
-- **Module number**: The module number that the file(s) for review belong(s) to.
-- **File name**: The name of the file(s) to be reviewed.
-- **Task type**: The type of review required (i.e. instructional design review).
+- **GitHub username**. The content author's GitHub account username.
+- **Module number** The module number that the file(s) for review belong(s) to.
+- **File name** The name(s) of the file(s) to be reviewed.
+- **Task type**. The type of review required (i.e. ID review).
 
-The file for review should be on the master branch of the project's GitHub (remote) repo.
+The file(s) for review should be on the master branch of the project's GitHub (remote) repo.
 
 ## Topic 2: Steps required to conduct an ID review {#topic2}
 
@@ -59,14 +58,13 @@ The following steps are required to conduct a general ID review as part of a typ
 
     > **Note**: Apply the branch naming convention `m <module number> idreview <id reviewer's surname>` to your new branch, as described in [Topic 3: ID review branch naming convention](#topic3). For example, **m6-idreview-lee**.
 
-4. In VSC, on your local **ID review branch**, open the first markdown file for review, and review the contents of the file in VSC according to WayPoint Ventures guidelines.
-   <!-- Does ID make note of changes in .md file, PR or email? -->
+4. In VSC, on your local **ID review branch**, open the first markdown file for review, and review the contents of the file according to WayPoint Ventures' guidelines.
 
-5. In VSC, apply, save, stage, and commit your necessary changes/ corrections to the markdown file using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
+5. In VSC, apply, save, stage, and commit any necessary changes/ corrections you make to the markdown file by using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
 
 6. Push the file containing your changes to GitHub by following the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
 
-    > **Note**: Push to GitHub regularly, e.g. after review a lesson or single file. *Do not wait* until you have reviewed *all* of the files before pushing to GitHub.
+    > **Note**: Push to GitHub regularly, e.g. after you have reviewed a lesson or single file. *Do not wait* until you have reviewed *all* of the files before pushing to GitHub.
 
 7. In a web browser, access the project's GitHub repo by following the guide [View course files in web browser]({{site.baseurl}}/download-files/view-in-browser.html).
 
@@ -81,16 +79,19 @@ The following steps are required to conduct a general ID review as part of a typ
     - For **base**, choose the **master** branch.
     - For **compare**, select the name of your **ID review branch** branch, e.g. **m6-idreview-lee**.
 
-10. On the GitHub page **Open a pull request**, add the following into the PR title text field:
+    ![Branch configuration on the GitHub 'Open a pull request' page](../assets/images/05-workflow/id-process/github/09-pr-branches.png)
 
-    - number of the module the reviewed file belongs to
-    - type of review you are conducting (i.e. instructional design)
+10. On the GitHub page **Open a pull request**, add the following into the PR **title text entry field**:
+
+    - number of the module the file you reviewed belongs to
+    - type of review you conducted (i.e. ID review)
     - name of the base branch to merge into (i.e. master)
 
     For example, a suitable PR title is: **Mod 6 ID review merge into master**
 
-11. On the GitHub page **Open a pull request**, in the **Write** tab, add a checklist for each item to be reviewed using the following markdown syntax.
-    <!-- Is a GitHub checklist used by an ID -->
+    ![PR title text field on the GitHub 'Open a pull request' page](../assets/images/05-workflow/id-process/github/10-pr-title.png)
+
+11. **Optional**: On the GitHub page **Open a pull request**, in the **Write** tab, add a checklist for each item to be reviewed by entering the following markdown syntax into the **text entry field**.
 
     ```markdown
     - [ ] ID Review Complete
@@ -106,40 +107,71 @@ The following steps are required to conduct a general ID review as part of a typ
         - [ ] ID Review Issues Resolved - Lab
     ```
 
-    > **Note**: Add a topic, lesson or file as a checklist item in GitHub. If necessary, consult the content author to determine suitable items to add to the checklist.
+    ![Checklist in the 'Write' tab on the GitHub 'Open a pull request' page](../assets/images/05-workflow/id-process/github/11-pr-checklist.png)
 
-12. On the GitHub page **Open a pull request**, choose **Create pull request**.
+    > **Note**: An item in your GitHub checklist can be a single topic, lesson or file (as appropriate). If necessary, consult the content author to determine a suitable approach to dividing the module content into GitHub checklist items.
+    >
+    > Checklists provide a convenient way for ID reviewers, content authors, and other contributors to track progress of an ID review. Checklists are *optional*; ID reviewers are *not required* to use checklists on GitHub.
 
-13. Notify the content author of the name of the file you reviewed, and the name of your ID review branch.
-    <!-- Where does ID record proposed corrections/ changes to the content -->
-14. Ask the content author to evaluate the changes you made to the file on your ID review branch. Allow the content author sufficient time to:
+12. From the right side menu of the GitHub page **Open a pull request**, in the **Reviewers** section, select the **gear icon**. In the **text entry field**, enter the content author's GitHub username. Then, choose the author's GitHub username from the list to add the author as a reviewer to the PR.
 
-    - evaluate your changes
-    - provide you with feedback on your changes
+    The following image shows adding the GitHub user **eamonnk** to the PR.
 
-15. While you wait for the author's feedback, on your ID review branch in VSC, open the next file for review and conduct an ID review of the file's contents.
+    ![GitHub username in the add reviewer text entry field on the GitHub 'Open a pull request' page](../assets/images/05-workflow/id-process/github/12-pr-add-reviewer-a.png)
 
-16. On your ID review branch in VSC, apply any required changes/ corrections to file. If necessary, apply any further changes/ corrections to the previous file in accordance with the author's feedback.
-    <!-- Where do ID and author exchange their communications, e.g. email? -->
-17. On your ID review branch in VSC, save, stage, commit and push your changes to GitHub.
+    The following image shows the GitHub user **eamonnk** added as a reviewer to the PR.
 
-18. Repeat Step 14 to 18 until all of the files for review have passed ID review. Notify the content author each time you push new changes to allow the author to evaluate your corrections and provide feedback.
-    <!-- If a checklist is used in GitHub, check items off the list -->
-19. When all content for review passes ID review, in VSC, delete any comments from within the markdown files (*do not delete* comments from the pull request on GitHub).
+    ![GitHub user added as a reviewer to a PR on the GitHub 'Open a pull request' page](../assets/images/05-workflow/id-process/github/12-pr-add-reviewer-b.png)
 
-20. On your ID review branch in VSC, save, stage, commit and push the passed files to GitHub (i.e. the files that contain your finalized ID review changes).
+    > **Note**: When you add a GitHub user as a reviewer to the PR (like a content author), GitHub will send the GitHub user a notification each time a change is made to the pull request (for example, when a file in the PR is edited or added).
 
-21. On GitHub, go to PR you opened and merge your ID review branch into master by following the guide [Merge a pull request]({{site.baseurl}}/pull-requests/merge-pr.html).
+13. On the GitHub page **Open a pull request**, choose **Create pull request**.
 
-22. On GitHub, delete your ID review branch using the guide [Delete branch]({{site.baseurl}}/branches/delete-branch.html).
+    ![Create pull request button on the GitHub 'Open a pull request' page](../assets/images/05-workflow/id-process/github/13-pr-create.png)
 
-23. Notify the author and copy editor (by email) that you have completed your ID review.
+14. If necessary, consult the content author about the changes you made to the file on your ID review branch.
+
+    > **Note**: Reviewers and authors can communicate in the following ways (among others) to discuss changes to content necessitated by a review:
+    >
+    > - face-to-face meeting, video or voice call
+    > - comments added to the **Conversation** tab on the GitHub pull requests page
+    > - markdown comments inside a markdown file, formatted using the correct markdown syntax for comments described in the [Markdown syntax guide]({{site.baseurl}}/add-content/syntax.html)
+    > - email exchanges
+    >
+
+15. On your ID review branch in VSC, open the next file for review and conduct an ID review of the file's contents.
+
+16. In VSC, apply any required changes/ corrections to file on your local ID review branch. If necessary, apply any further changes/ corrections to the previous file in accordance with feedback from the content author.
+
+17. On your ID review branch in VSC, save, stage, commit and push your changes to GitHub by using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
+
+18. Repeat **Step** 14 to 17 until all of the files for review have passed your ID review. Each time you push new changes, the author may evaluate your corrections and provide feedback.
+
+    > **Note**: If you created a GitHub checklist, indicate when each item on the GitHub checklist has been addressed, and when the review has been completed, by using the checkboxes in the **Conversation** tab on the GitHub pull requests page.
+
+    ![Checklist in the 'Conversation' tab on the GitHub 'Open a pull request' page indicating a review has been completed](../assets/images/05-workflow/id-process/github/18-checklist-complete.png)
+
+19. When all content for review has passed ID review, in VSC, delete any comments from within the markdown files (*do not delete* comments from the pull request on GitHub).
+
+20. On your ID review branch in VSC, save, stage, commit and push the passed files to GitHub (i.e. the files that contain your finalized changes).
+
+21. On GitHub, go to the **Pull requests** tab for the (open) PR. Confirm that the **this branch has no conflicts with the base branch** message is shown. Choose **Merge pull request** to begin merging your ID review branch into master by following the guide [Merge a pull request]({{site.baseurl}}/pull-requests/merge-pr.html).
+
+    ![Merge pull request button on the GitHub 'pull requests' page](../assets/images/05-workflow/id-process/github/21-pr-merge.png)
+
+    > **Note**: If GitHub indicates that there *are* conflicts, follow the guide [Resolve merge conflicts]({{site.baseurl}}/pull-requests/merge-conflicts.html) to address any outstanding merge issues, and then try merging the pull request again.
+
+22. On the GitHub **Pull requests** tab, select **Confirm merge** to merge your ID review branch into master.
+
+    ![Confirm merge button on the GitHub 'pull requests' tab](../assets/images/05-workflow/id-process/github/22-pr-confirm-merge.png)
+
+23. When the message **Pull request successfully merged and closed** indicates that the PR has merged, select **Delete branch** to delete your ID review branch by following the guide [Delete branch]({{site.baseurl}}/branches/delete-branch.html).
+
+    ![Delete branch button on the GitHub 'pull requests' tab](../assets/images/05-workflow/id-process/github/23-pr-delete-branch.png)
+
+24. Notify the copy editor by email (and the content author) that you have completed your ID review successfully.
 
 ## Topic 3: ID review branch naming convention {#topic3}
-
-<!-- Todo: 
-  - Verify the following steps.
--->
 
 Each reviewer must work in their own reviewer's branch. A separate reviewer branch for each module is also required. This approach keeps the content separated per reviewer, at each stage in the process, and on a module by module basis.
 
@@ -167,13 +199,13 @@ Putting the previous items together results in the reviewer branch name `m6-idre
 
 ## Topic 4: Key points about the ID review process {#topic4}
 
+The following diagram provides an overview of key points in the general ID review process for a typical project.
+
+![Diagram of the instructional design review process](../assets/images/05-workflow/id-process/github/25-id-workflow.png)
+
 The following are key points about the ID review process.
 
-<!-- Todo: 
-  - Create and add summary process diagram.
--->
-
-- **Author** requests ID review by email.
+- **Author** requests ID review by email (when content for a module is ready).
 
 - **ID reviewer**:
 
@@ -183,7 +215,7 @@ The following are key points about the ID review process.
   - applies, saves and commits necessary changes/ corrections in VSC (on ID review branch)
   - pushes changes/ corrections to GitHub
   - creates pull request (PR) to merge ID review branch into master
-  - notifies author when PR's ready for evaluation
+  - adds author to PR as a reviewer on GitHub
 
 - **Author** evaluates pull request, and liaises with ID to provide feedback on ID reviewer's changes
 
