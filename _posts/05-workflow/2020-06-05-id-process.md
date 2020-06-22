@@ -16,6 +16,7 @@ video_url: "none"
 This guide describes the general **Instructional Design (ID) Review** process for a typical project.
 
 > **Note**: The ID review process described in this guide is generalized and is not intended to capture the process entirely. The process can vary between projects and you should ask your project manager about the specific review processes that apply to the course you are working on.
+>
 
 {% include prerequisites.html %}
 
@@ -50,6 +51,7 @@ The following steps are required to conduct a general ID review as part of a typ
 3. Create a new branch in your local repo with VSC using the guide [Create new branch]({{site.baseurl}}/branches/new-branch.html). The new branch is your local **ID review branch**, and should be created from the **master** branch in VSC.
 
     > **Note**: Apply the branch naming convention `m <module number> idreview <id reviewer's surname>` to your new branch, as described in [Topic 3: ID review branch naming convention](#topic3). For example, **m6-idreview-lee**.
+    >
 
 4. In VSC, on your local **ID review branch**, open the first markdown file for review, and review the contents of the file according to WayPoint Ventures' guidelines.
 
@@ -58,6 +60,7 @@ The following steps are required to conduct a general ID review as part of a typ
 6. Push the file containing your changes to GitHub by following the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
 
     > **Note**: Push to GitHub regularly, e.g. after you have reviewed a lesson or single file. *Do not wait* until you have reviewed *all* of the files before pushing to GitHub.
+    >
 
 7. In a web browser, access the project's GitHub repo by following the guide [View course files in web browser]({{site.baseurl}}/download-files/view-in-browser.html).
 
@@ -66,6 +69,7 @@ The following steps are required to conduct a general ID review as part of a typ
     > **Note**: Keep the new PR open (i.e. *do not merge* the PR yet). Keeping the PR open allows you to apply subsequent changes necessitated by the review process. Any further changes you make to the files on your ID review branch that you push to GitHub will be rolled into the open pull request. Configure the pull request by following the remaining steps in this guide.
     >
     > General information about pull requests is available from the guide [Pull requests overview]({{site.baseurl}}/pull-requests/pr-overview.html).
+    >
 
 9. On the GitHub page **Open a pull request**, use the dropdowns to configure the PR branches as follows:
   
@@ -105,6 +109,7 @@ The following steps are required to conduct a general ID review as part of a typ
     > **Note**: An item in your GitHub checklist can be a single topic, lesson or file (as appropriate). If necessary, consult the content author to determine a suitable approach to dividing the module content into GitHub checklist items.
     >
     > Checklists provide a convenient way for ID reviewers, content authors, and other contributors to track progress of an ID review. Checklists are *optional*; ID reviewers are *not required* to use checklists on GitHub.
+    >
 
 12. From the right side menu of the GitHub page **Open a pull request**, in the **Reviewers** section, select the **gear icon**. In the **text entry field**, enter the content author's GitHub username. Then, choose the author's GitHub username from the list to add the author as a reviewer to the PR.
 
@@ -117,6 +122,7 @@ The following steps are required to conduct a general ID review as part of a typ
     ![GitHub user added as a reviewer to a PR on the GitHub 'Open a pull request' page](../assets/images/05-workflow/id-process/github/12-pr-add-reviewer-b.png)
 
     > **Note**: When you add a GitHub user as a reviewer to the PR (like a content author), GitHub will send the GitHub user a notification each time a change is made to the pull request (for example, when a file in the PR is edited or added).
+    >
 
 13. On the GitHub page **Open a pull request**, choose **Create pull request**.
 
