@@ -13,10 +13,9 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 <!--todo:
-  - add images and alt text
   - create and add ce process diagram
   - add answers to questions in comments below
-  - proof read text (check for misplaced references to 'id process')
+  - proof read (check for misplaced references to 'id process')
   - check integrity of hyperlinks
 -->
 
@@ -102,8 +101,6 @@ The following steps are required to conduct a general ID review as part of a typ
         - [ ] CE Review Issues Resolved - Lesson 2
         - [ ] CE Review Complete - Lesson 3
         - [ ] CE Review Issues Resolved - Lesson 3
-        - [ ] CE Review Complete - Lesson 4
-        - [ ] CE Review Issues Resolved - Lesson 4
         - [ ] CE Review Complete - Lab
         - [ ] CE Review Issues Resolved - Lab
     ```
