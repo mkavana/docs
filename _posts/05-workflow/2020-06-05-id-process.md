@@ -13,13 +13,6 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 
-<!--
-  Todo:
-    - Add summary to Topic 4 and id process diagram on path:
-        ![Alt image text placeholder](../assets/images/05-workflow/id-process/github/id-workflow.png)
-    - Check for broken links
--->
-
 This guide describes the general **Instructional Design (ID) Review** process for a typical project.
 
 > **Note**: The ID review process described in this guide is generalized and is not intended to capture the process entirely. The process can vary between projects and you should ask your project manager about the specific review processes that apply to the course you are working on.
