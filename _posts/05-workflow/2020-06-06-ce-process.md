@@ -1,6 +1,6 @@
 ---
 layout: multi
-title: Content edit process
+title: Content editing process
 subtitle: GitHub
 description:
 author:
@@ -13,13 +13,12 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 <!--todo:
-  - create and add ce process diagram
   - add answers to questions in comments below
   - proof read (check for misplaced references to 'id process')
   - check integrity of hyperlinks
 -->
 
-This guide describes the general **Content Edit (CE) Review** process for a typical project.
+This guide describes the general **Content Editing (CE) Review** process for a typical project.
 
 > **Note**: The CE review process described in this guide is generalized and is not intended to capture the process entirely. The process can vary between projects and you should ask your project manager about the specific review processes that apply to the course you are working on.
 
@@ -47,7 +46,7 @@ The file(s) for CE review should be on the master branch of the project's GitHub
 
 ## Topic 2: Steps required to conduct a CE review
 
-The following steps are required to conduct a general ID review as part of a typical project.
+The following steps are required to conduct a general CE review as part of a typical project.
 
 1. When you receive an email from an ID reviewer requesting a CE review, note the name(s) of the file(s) to be reviewed.
 
@@ -55,11 +54,12 @@ The following steps are required to conduct a general ID review as part of a typ
 
 3. Create a new branch in your local repo with VSC using the guide [Create new branch]({{site.baseurl}}/branches/new-branch.html). The new branch is your local **CE review branch**, and should be created from the **master** branch in VSC.
 
-    > **Note**: Apply the branch naming convention `m <module number> cereview <ce reviewer's surname>` to your new branch, as described in [Topic 3: ID review branch naming convention](#topic3). For example, **m6-cereview-lee**.
+    > **Note**: Apply the branch naming convention `m <module number> cereview <ce reviewer's surname>` to your new branch, as described in [Topic 3: CE review branch naming convention](#topic3). For example, **m6-cereview-lee**.
+    >
 
 4. In VSC, on your local **CE review branch**, open the first markdown file for review, and review the contents of the file according to WayPoint Ventures' guidelines.
 
-5. In VSC, apply, save, stage, and commit any necessary changes/ corrections you make to the markdown file by using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).|
+5. In VSC, apply, save, stage, and commit any necessary changes/ corrections you make to the markdown file by using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
 
 6. Push the file containing your changes to GitHub by following the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
 
@@ -77,7 +77,7 @@ The following steps are required to conduct a general ID review as part of a typ
 9. On the GitHub page **Open a pull request**, use the dropdowns to configure the PR branches as follows:
   
     - For **base**, choose the **master** branch.
-    - For **compare**, select the name of your **CE review branch** branch, e.g. **m6-cereview-lee**.
+    - For **compare**, select the name of your **CE review branch** branch (e.g. **m6-cereview-lee**).
 
     ![Branch configuration on the GitHub 'Open a pull request' page](../assets/images/05-workflow/ce-process/github/09-pr-branches.png)
 
@@ -109,7 +109,7 @@ The following steps are required to conduct a general ID review as part of a typ
 
     > **Note**: An item in your GitHub checklist can be a single topic, lesson or file (as appropriate). If necessary, consult the ID reviewer to determine a suitable approach to dividing the module content into GitHub checklist items.
     >
-    > Checklists provide a convenient way for reviewers, content authors, and other contributors to track progress of a review. Checklists are *optional*; reviewers are *not required* to use checklists on GitHub.
+    > Checklists provide a convenient way for reviewers, content authors, and other contributors to track the progress of a review. Checklists are *optional*; reviewers are *not required* to use checklists on GitHub.
     >
 
 12. From the right side menu of the GitHub page **Open a pull request**, in the **Reviewers** section, select the **gear icon**. In the **text entry field**, enter the ID reviewer's GitHub username. Then, choose the ID reviewer's GitHub username from the list to add the ID reviewer as a GitHub reviewer to the PR.
@@ -124,7 +124,15 @@ The following steps are required to conduct a general ID review as part of a typ
 
     > **Note**: When you add a GitHub user as a reviewer to the PR (like an ID reviewer), GitHub will send the GitHub user a notification each time a change is made to the pull request (for example, when a file in the PR is edited or added).
     >
-    > At this stage, the ID reviewer clones the GitHub repo, switches to your CE review branch. The ID reviewer evaluates the file containing your CE review changes. Where necessary, the ID reviewer will add comments about your CE review changes to the open PR, or by sending you an email. Comments are only required when an ID reviewer seeks clarification about your CE review changes; accepted changes do not require comments. An ID reviewer can add the originating content author as a GitHub reviewer to your open PR or as a carbon copy (CC) email recipient. The content author *must* only add comments to the open PR in GitHub or by email. The author *must not* edit the copy editor's branch, or create a new authoring branch to make changes.
+    > At this stage, the **ID reviewer**:
+    >
+    > - clones the GitHub repo
+    > - switches to your CE review branch
+    > - evaluates the file containing your CE review changes
+    >
+    > Where necessary, the ID reviewer will add comments about your CE review changes to the open PR, or by sending you an email. Comments are only required when an ID reviewer seeks clarification about your CE review changes; accepted changes do not require comments.
+    >
+    > An ID reviewer can add the originating content author as a GitHub reviewer to your open PR or as a carbon copy (CC) email recipient. The content author *must* only add comments to the open PR in GitHub or by email. The author *must not* edit the content editor's branch, or create a new authoring branch to make changes.
     >
 
 13. On the GitHub page **Open a pull request**, choose **Create pull request**.
@@ -143,7 +151,7 @@ The following steps are required to conduct a general ID review as part of a typ
 
 15. On your CE review branch in VSC, open the next file for review and conduct a CE review of the file's contents.
 
-16. In VSC, apply any required changes/ corrections to file on your local CE review branch. If necessary, apply any further changes/ corrections to the previous file in accordance with feedback from the ID reviewer (and author).
+16. In VSC, apply any required changes/ corrections to the file on your local CE review branch. If necessary, apply any further changes/ corrections to the previous file in accordance with feedback from the ID reviewer (and author).
     <!-- Does CE or ID apply edits to files? -->
 
 17. On your CE review branch in VSC, save, stage, commit and push your changes to GitHub by using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
@@ -154,13 +162,13 @@ The following steps are required to conduct a general ID review as part of a typ
 
     ![Checklist in the 'Conversation' tab on the GitHub 'Open a pull request' page indicating a review has been completed](../assets/images/05-workflow/ce-process/github/18-checklist-complete.png)
 
-19. When all files have passed CE review, send an email to an ID reviewer indicating that your CE review has been completed.
+19. When all files have passed CE review, send an email to the ID reviewer indicating that your CE review has been completed.
     <!-- Does CE or ID merge CE's branch, delete CE branch and handoff to Test? -->
-    > **Note**: The ID reviewer will complete the process by:
+    > **Note**: The **ID reviewer** will complete the process by:
     >
     > - merging your CE branch into master using the open GitHub PR
     > - deleting your CE branch
-    > - notifying the Test team by email that you have completed your CE review successfully.
+    > - notifying the Test team by email that you have completed your CE review successfully
     >
 
 ## Topic 3: CE review branch naming convention
@@ -175,16 +183,16 @@ CE reviewers' branches use the following naming convention (all lower case):
 
 - The prefix `m` is for “module”.
 - `<module number>` refers to the module number that the file to be reviewed belongs to.
-- `cereview` is a short code for "copy edit review" i.e. the stage in the process the file is at.
+- `cereview` is a short code for "content editing review" i.e. the stage in the process the file is at.
 - The reviewer's `<surname>` is added as a suffix to distinguish the reviewer's work from other contributors.
 
-### Example authoring branch name
+### Example CE reviewer's branch name
 
 The following explains how the example reviewer branch name `m6-cereview-lee` is constructed.
 
 - `m` is an abbreviation for "module".
 - `6` is the number of the module that the file(s) for review belong(s) to.
-- `cereview` is a short code for "copy edit review".
+- `cereview` is a short code for "content editing review".
 - `lee` is a reference to the reviewer's surname.
 
 Putting the previous items together results in the reviewer branch name `m6-cereview-lee`.
@@ -193,32 +201,31 @@ Putting the previous items together results in the reviewer branch name `m6-cere
 
 The following diagram provides an overview of key points in the general CE review process for a typical project.
 
-![Diagram of the copy edit review process](../assets/images/05-workflow/ce-process/github/img-placeholder.png)
+![Diagram of the content editing review process](../assets/images/05-workflow/ce-process/github/19-ce-workflow.png)
 
-The following are key points about the CE review process.
+The following are key points about the content editing review process.
 
-- **ID reviewer** requests CE review by email (when content for a module is ready).
+- **Instructional Design reviewer (ID)** requests content editing review by email (when content for a module is ready).
 
-- **Copy editor**:
+- **Content editor (CE)**:
 
-  - clones remote repo
-  - creates "CE branch" off master
-  - reviews a single file on CE branch (e.g. file for lesson or topic)
-  - applies changes to reviewed file
-  - saves, stages, commits and pushes changed file
-  - creates PR to merge CE branch into master
-  - adds ID reviewer to PR as a reviewer
-  - next file and applies changes to file on CE branch
-  - liaises with ID reviewer (and author) to address issues or questions relating to copy editor's previous file changes
-  - applies changes to previous file according to ID reviewer's (and author's) feedback
-  - saves, stages, commits and pushes changed file(s) to open PR
-  - signs off on PR with finalized files by email to ID reviewer.
+  - clone's project's GitHub repo
+  - creates local "CE review" branch from master in VSC
+  - reviews content in VSC on CE review branch
+  - applies, saves and commits necessary changes/ corrections in VSC (on CE review branch)
+  - pushes changes/ corrections to GitHub
+  - creates pull request (PR) to merge CE branch into master
+  - adds ID reviewer to PR as a reviewer on GitHub
+  - liaises with ID reviewer to implement ID's (and authors) feedback on CE reviewer's changes until all files pass CE review
+  - signs off on PR with finalized files by email to ID reviewer
 
 - **ID reviewer**:
-  
-  - merges CE branch into master using copy editor's open PR.
-  - deletes CE branch.
-  - signs off on files passed CE review files by sending an email to Test team.
+
+  - evaluates files in PR as CE adds changes
+  - liaises with CE (and author) to provide feedback on CE reviewer's changes
+  - when all files pass CE, ID merges CE branch into master using (CE's open PR)
+  - deletes merged CE branch
+  - signs off on files passed CE review by sending an email to Test team
 
 {% include appendices.html %}
 
