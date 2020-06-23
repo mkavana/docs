@@ -108,7 +108,7 @@ The following steps are required to conduct a general ID review as part of a typ
 
     > **Note**: An item in your GitHub checklist can be a single topic, lesson or file (as appropriate). If necessary, consult the content author to determine a suitable approach to dividing the module content into GitHub checklist items.
     >
-    > Checklists provide a convenient way for ID reviewers, content authors, and other contributors to track progress of an ID review. Checklists are *optional*; ID reviewers are *not required* to use checklists on GitHub.
+    > Checklists provide a convenient way for ID reviewers, content authors, and other contributors to track the progress of an ID review. Checklists are *optional*; ID reviewers are *not required* to use checklists on GitHub.
     >
 
 12. From the right side menu of the GitHub page **Open a pull request**, in the **Reviewers** section, select the **gear icon**. In the **text entry field**, enter the content author's GitHub username. Then, choose the author's GitHub username from the list to add the author as a reviewer to the PR.
@@ -140,7 +140,7 @@ The following steps are required to conduct a general ID review as part of a typ
 
 15. On your ID review branch in VSC, open the next file for review and conduct an ID review of the file's contents.
 
-16. In VSC, apply any required changes/ corrections to file on your local ID review branch. If necessary, apply any further changes/ corrections to the previous file in accordance with feedback from the content author.
+16. In VSC, apply any required changes/ corrections to the file on your local ID review branch. If necessary, apply any further changes/ corrections to the previous file in accordance with feedback from the content author.
 
 17. On your ID review branch in VSC, save, stage, commit and push your changes to GitHub by using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
 
@@ -185,7 +185,7 @@ ID reviewers' branches use the following naming convention (all lower case):
 - `idreview` is a short code for "instructional design review" i.e. the stage in the process the file is at.
 - The reviewer's `<surname>` is added as a suffix to distinguish the reviewer's work from other contributors.
 
-### Example authoring branch name
+### Example ID reviewer's branch name
 
 The following explains how the example reviewer branch name `m6-idreview-lee` is constructed.
 
