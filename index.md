@@ -11,7 +11,7 @@ The WayPoint Ventures documentation website provides guides, videos and resource
 
 The **Quick Start** (from the left side menu) provides a guide to contributing content on a single page. Authors, Reviewers and other contributors will find the quick start useful to understanding what is required to "get up and running" quickly.
 
-Alternatively, you can choose a single topic from the left side menu.
+Alternatively, you can choose a single topic from the left side menu. If you are a new contributor, after you complete the guides in the **Install software** section, the guide to [Terminology and concepts]({{site.baseurl}}/workflow/terminology.html) is good to start with.
 
 >**Note**: Some of the documents on this site are specific to courses that use **GitHub**, while others are specific to courses that use **Azure DevOps** (AzDevOps). Use the **Repository type** button, as shown in the following image, to select **GitHub** or **Azure DevOps**, in accordance with the requirements for the course you are working on. If you are unsure about the type of repository used by the course you are working on, ask your project manager.
 >
