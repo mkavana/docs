@@ -13,6 +13,11 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 
+Choose a topic from one of the menu sections on the left.
+
+<!--
+uncomment to add 'Quick start' content
+
 This guide describes...
 
 ## Topics in this guide
@@ -26,6 +31,8 @@ This guide describes...
 Complete the following steps to..., as shown in the following sample image.
 
 ![Alt image text placeholder](../assets/images/01-quickstart/github/img-placeholder.png)
+
+-->
 
 {% include appendices.html %}
 
