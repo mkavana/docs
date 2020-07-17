@@ -23,12 +23,12 @@ Using a browser provides a "quick and easy" way to view the course files without
 
 ## Topics in this guide
 
-- [Task 1: Locate the course files on GitHub](#topic1)
-- [Task 2: View the course files on GitHub](#topic2)
+- [Topic 1: Locate the course files on GitHub](#topic1)
+- [Topic 2: View the course files on GitHub](#topic2)
 
 {% include video.html %}
 
-## Topic 1: Example topic {#topic1}
+## Topic 1: Locate the course files on GitHub {#topic1}
 
 The course files are stored in a GitHub repository (repo) at `https://github.com/WaypointVentures/<project name>`, where `<project name>` refers to the GitHub name for the course (project) you are working on. The GitHub repo contains different versions of the course files. Each set of files is stored in its own compartment within the repo called a **branch**. Ask your project manager for the link to the project's GitHub repo.
 
@@ -36,7 +36,7 @@ As an example, this guide uses the **40574A Azure Fundamentals** ("Az Funds") Gi
 
 > **Note**: A **test repo** is available from GitHub which mirrors the main (production) "Az Funds" GitHub repo. Use the test repo to try out Git actions *before* performing actions in the production repo. Actions performed in the test repo are inconsequential. If you modify or delete your copy of the test repo, create a new copy by using the **git clone** command in VSC (as described later the documentation). If you cannot access the test repo, contact your project manager to request access.
 
-## Task 2: View content on GitHub (without using software tools) {#topic2}
+## Task 2: View the course files on GitHub {#topic2}
 
 The following steps demonstrate how to view the GitHub repo's contents with a web browser, to access the branch with the version of the course files you require.
 
