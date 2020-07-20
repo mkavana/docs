@@ -36,16 +36,16 @@
   AzDev: azdev/_posts/09-branches/2020-06-02-az-new-branch.md
 -
   # branches > update branch
-  GitHub: _posts/09-branches/2020-06-04-pull-updates.md
-  AzDev: azdev/_posts/09-branches/2020-06-04-az-pull-updates.md
+  GitHub: _posts/09-branches/2020-06-03-pull-updates.md
+  AzDev: azdev/_posts/09-branches/2020-06-03-az-pull-updates.md
 -
   # branches > switch branch
-  GitHub: _posts/09-branches/2020-06-03-switch-branch.md
-  AzDev: azdev/_posts/09-branches/2020-06-03-az-switch-branch.md
+  GitHub: _posts/09-branches/2020-06-04-switch-branch.md
+  AzDev: azdev/_posts/09-branches/2020-06-04-az-switch-branch.md
 -
   # branches > recover deleted branch
   GitHub: _posts/09-branches/2020-06-08-recover-branch.md
-  AzDev: azdev/_posts/09-branches/2020-06-07-az-recover-branch.md
+  AzDev: azdev/_posts/09-branches/2020-06-08-az-recover-branch.md
 -
   # add content > edit in browser
   GitHub: _posts/11-add-content/2020-06-02-edit-in-browser.md
