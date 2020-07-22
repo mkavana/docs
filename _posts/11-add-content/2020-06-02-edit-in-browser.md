@@ -2,7 +2,7 @@
 layout: multi
 title: Add/ edit content in web browser
 subtitle: GitHub
-description: A guide to using a web browser to add content to, or edit, a markdown file on GitHub
+description: A guide to using a web browser to edit, or add content into, a markdown file on GitHub
 author: mkavana
 date: 01 Jun 2020
 post-number: 11.2
@@ -13,7 +13,7 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 
-This guide describes using a web browser to add content to, or edit, a markdown file on GitHub.
+This guide describes using a web browser to edit, or add content into, a markdown file on GitHub.
 
 > **Note**: This guide assumes that the markdown file you are adding content to, or editing, exists on GitHub already. As an example, this guide uses a markdown file from the WayPoint Ventures' test repository (**Testrepo1**) on GitHub at [https://github.com/WaypointVentures/Testrepo1/](https://github.com/WaypointVentures/Testrepo1/). Modify the following instructions to suit your preferred markdown file and GitHub repository (repo).
 
@@ -27,7 +27,7 @@ This guide describes using a web browser to add content to, or edit, a markdown 
 
 ## Topic 1: Edit a markdown file on GitHub in a web browser {#topic1}
 
-Complete the following steps to use a web browser to add content to, or edit, a markdown file on GitHub.
+Complete the following steps use a web browser to edit, or add content into, a markdown file on GitHub.
 
 1. Open a web browser, then go to the URL for the project's GitHub repo, and sign in to GitHub.
 
@@ -49,7 +49,7 @@ Complete the following steps to use a web browser to add content to, or edit, a 
 
     !['Edit file' tab on GitHub with part of an example markdown file selected for editing](../assets/images/11-add-content/edit-browser/github/edit-browser-004.png)
 
-5. Apply the required edits to the markdown file.
+5. Apply the required edits or add your content to the markdown file.
 
     For example, type the following comment into the last line of the markdown file **40574A Azure Fundamentals Module 1 Lesson Plan 1.md** on GitHub.
 
@@ -133,7 +133,7 @@ Complete the following steps to use a web browser to add content to, or edit, a 
 
     When your changes are merged on GitHub, you can delete your unused branch by following the guide [Delete branch]({{site.baseurl}}/branches/delete-branch.html).
 
-You have edited an existing markdown file on GitHub using a web browser successfully.
+You have used a web browser to edit, or add content into, a markdown file on GitHub successfully.
 
 {% include appendices.html %}
 
