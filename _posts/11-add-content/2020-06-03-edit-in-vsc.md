@@ -88,7 +88,7 @@ This guide describes how to edit, or add content to, a markdown file using the V
     > **Note**: Use the **Open Preview to the Side icon**, or shortcut keys **CTRL** + **SHIFT** + **M**, to toggle VSC **Preview to the Side** on and off. To toggle a "full-window" markdown preview on and off, use the shortcut key **CTRL** + **SHIFT** + **V**. Using VSC markdown previews can help you to identify and address content formatting issues. You should also fix any syntax errors that VSC highlights by following the guide [Fix linter issues]({{site.baseurl}}/add-content/fix-linter.html).
     >
 
-8. When you have finished updating the markdown file's contents, save, stage, commit, and push your file to the project's remote repo by following the guide [Send (push) branch]({{site.baseurl}}/branches/push-branch.html).
+8. When you have finished updating the markdown file's contents, save, stage, commit, and push your file to the project's remote repo by following the guide [send (push) files]({{site.baseurl}}/branches/push-files.html).
 
 9. After you have pushed your file to the project's remote repo, create a new pull request to merge the file by following the guide [Create pull request]({{site.baseurl}}/pull-requests/create-pr.html).
 

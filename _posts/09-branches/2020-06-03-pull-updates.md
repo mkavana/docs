@@ -37,7 +37,7 @@ The `git pull` command gets information about the latest files from GitHub and m
 > **Note**: Whenever you pull files into a specific branch, you *must* ensure that VSC is switched to the correct branch to avoid inadvertently overwriting files. The VSC **status bar**, at the bottom of the editor, indicates the name of branch that VSC is currently switched to.
 >
 
-Save any changes you make to your local repo regularly (using Git **stage** and **commit**). For details about Git terminology and file saving actions visit the guides [Terminology and concepts]({{ site.baseurl }}/workflow/terminology.html) and [Send (push) branch]({{ site.baseurl }}/branches/push-branch.html).
+Save any changes you make to your local repo regularly (using Git **stage** and **commit**). For details about Git terminology and file saving actions visit the guides [Terminology and concepts]({{ site.baseurl }}/workflow/terminology.html) and [send (push) files]({{ site.baseurl }}/branches/push-branch.html).
 
 ## Topic 2: Get the latest version of the GitHub rep {#topic2}
 
