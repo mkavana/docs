@@ -46,7 +46,7 @@ This guide describes how to edit, or add content to, a markdown file using the V
 
     For example, in the following image, the folder named **Course_files\Module-01** is selected in the **VSC explorer**.
 
-    ![Example sub-folder in VSC explorer](../assets/images/11-add-content/add-markdown/edit-003.png)
+    ![Example folder in VSC explorer](../assets/images/11-add-content/add-markdown/edit-003.png)
 
     > **Note**: The **VSC status bar**, at the bottom of the editor window, indicates the name of the branch that VSC is currently switched to. For example, in the previous image, the **VSC status bar** indicates that VSC is currently switched to the branch named **master**. To avoid overwriting your files, switch VSC to the correct branch by following the guide [Switch branches]({{site.baseurl}}/branches/switch-branch.html).
     >
