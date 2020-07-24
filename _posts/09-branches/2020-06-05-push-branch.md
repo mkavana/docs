@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Upload your changes
+title: Send (push) branch
 subtitle: Stage, commit and push to remote repo 
 description: Guide to staging, committing and pushing files to GitHub 
 author: mkavana
