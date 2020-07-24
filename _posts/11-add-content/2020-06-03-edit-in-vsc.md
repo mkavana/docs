@@ -13,7 +13,7 @@ include-in-quickstart: "true"
 video_url: "none"
 ---
 
-This guide describes how to edit or add content to a markdown using the Visual Studio Code (VSC) editor.
+This guide describes how to edit, or add content to, a markdown file using the Visual Studio Code (VSC) editor.
 
 > **Note**: This guide assumes that the markdown file you are editing exists in your local repository (repo). Apply the steps in this guide to any suitable markdown file that you created or cloned from the project’s GitHub or Azure DevOps repo.
 >
@@ -42,9 +42,9 @@ This guide describes how to edit or add content to a markdown using the Visual S
 
     !['Select folder' option in the 'VSC open folder' file explorer](../assets/images/11-add-content/add-markdown/edit-002.png)
 
-3. Use the **VSC explorer** (on the left) to go to the sub-folder that contains the markdown file you want to edit.
+3. Use the **VSC explorer** (on the left) to go to the folder that contains the markdown file you want to edit.
 
-    For example, in the following image, the sub-folder named **Course_files\Module-01** is selected in the **VSC explorer**.
+    For example, in the following image, the folder named **Course_files\Module-01** is selected in the **VSC explorer**.
 
     ![Example sub-folder in VSC explorer](../assets/images/11-add-content/add-markdown/edit-003.png)
 
@@ -59,11 +59,11 @@ This guide describes how to edit or add content to a markdown using the Visual S
 
     > **Note**: If you don't have a markdown file to edit, create a new markdown file using the guide [Create new markdown file in VSC]({{site.baseurl}}/add-content/create-file.html). Then, proceed to the next step (**Step 5**) to add content to the new file.
 
-5. Select the **VSC explorer icon** (on the left) to maximize the **VSC editor tab**. If you need to, reselect the icon to reopen **VSC explorer**.
+5. Select the **VSC explorer icon** (on the left side bar) to maximize the **VSC editor tab**.
 
     ![VSC explorer icon](../assets/images/11-add-content/add-markdown/edit-005.png)
 
-    > **Note**: You can open more than one file at a time in VSC, and each file can be opened in a separate **VSC editor tab**.
+    > **Note**: Select the **VSC explorer icon** to toggle **VSC side bar** on and off or use the shortcut keys **SHIFT** + **\\**. You can open more than one file at a time in VSC, and each file can be opened in a separate **VSC editor tab**.
     >
 
 6. In the **VSC editor tab**, make your required changes by editing or adding content to the markdown file.
@@ -85,12 +85,12 @@ This guide describes how to edit or add content to a markdown using the Visual S
 
     ![VSC 'Open Preview to the Side icon' and example markdown file in a VSC preview tab](../assets/images/11-add-content/add-markdown/edit-007.png)
 
-    > **Note**: Use the **Open Preview to the Side icon**, or shortcut keys **CTRL** + **SHIFT** + **M**, to toggle VSC **Preview to the Side** on and off. To toggle a "full-window" markdown preview on and off, use the shortcut key **CTRL** + **SHIFT** + **V**. VSC markdown previews can help you to identify and address content formatting issues. You should also fix any syntax errors that VSC highlights by following the guide [Fix linter issues]({{site.baseurl}}/add-content/fix-linter.html).
+    > **Note**: Use the **Open Preview to the Side icon**, or shortcut keys **CTRL** + **SHIFT** + **M**, to toggle VSC **Preview to the Side** on and off. To toggle a "full-window" markdown preview on and off, use the shortcut key **CTRL** + **SHIFT** + **V**. Using VSC markdown previews can help you to identify and address content formatting issues. You should also fix any syntax errors that VSC highlights by following the guide [Fix linter issues]({{site.baseurl}}/add-content/fix-linter.html).
     >
 
-8. When you have finished updating the markdown file's contents, save, stage, commit, and push your file to the project's remote repo by following the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
+8. When you have finished updating the markdown file's contents, save, stage, commit, and push your file to the project's remote repo by following the guide [Send (push) branch]({{site.baseurl}}/branches/push-branch.html).
 
-9. After you have pushed your file to the project's remote repo, create a new pull request to merge the file by following the guide [Create a pull request]({{site.baseurl}}/pull-requests/create-pr.html).
+9. After you have pushed your file to the project's remote repo, create a new pull request to merge the file by following the guide [Create pull request]({{site.baseurl}}/pull-requests/create-pr.html).
 
 You have edited, or added content to, a markdown file using VSC successfully.
 
