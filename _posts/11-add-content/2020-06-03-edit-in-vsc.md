@@ -15,7 +15,7 @@ video_url: "none"
 
 This guide describes how to edit, or add content to, a markdown file using the Visual Studio Code (VSC) editor.
 
-> **Note**: This guide assumes that the markdown file you are editing exists in your local repository (repo). Apply the steps in this guide to any suitable markdown file that you created or cloned from the project’s GitHub or Azure DevOps repo.
+> **Note**: This guide assumes that the markdown file you are editing exists in your local repository (repo). Apply the steps in this guide to any suitable markdown (**or PNG**) file that you created or cloned from the project’s GitHub or Azure DevOps repo.
 >
 > If your local repo doesn't contain a markdown file for you to edit, create a new markdown file by following the guide [Create new markdown file in VSC]({{site.baseurl}}/add-content/create-file.html). After you create a new markdown file, add content to the new file by following the steps in this guide.
 >
