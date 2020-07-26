@@ -10,7 +10,7 @@ category: workflow
 position-in-category: 2
 include-in-pre-reqs: "true"
 include-in-quickstart: "false"
-video_url: "none"
+video_url: "https://web.microsoftstream.com/embed/video/eab2fdaf-337d-4ea4-a30f-7301482a34fd?autoplay=false&amp;showinfo=true"
 ---
 
 This guide provides an overview of the flow of work (or workflow) throughout a typical project lifecycle.
