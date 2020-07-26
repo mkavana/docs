@@ -10,8 +10,7 @@ category: add-content
 position-in-category: 7
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
-video_url: "none"
-#video_url: https://web.microsoftstream.com/embed/video/6e3c80aa-76ee-46d1-81d8-55d7dadfd106?autoplay=false&amp;showinfo=true
+video_url: "https://web.microsoftstream.com/embed/video/6e3c80aa-76ee-46d1-81d8-55d7dadfd106?autoplay=false&amp;showinfo=true"
 ---
 
 This guide describes how to view and address markdown errors in the Visual Studio Code editor (VSC).

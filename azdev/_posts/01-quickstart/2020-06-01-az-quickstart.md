@@ -10,10 +10,12 @@ post-number: 1.1
 #position-in-category: 1
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
-video_url: "none"
+video_url: "https://web.microsoftstream.com/embed/video/e0424e48-398f-4983-9677-551a98c1f9d2?autoplay=false&showinfo=true"
 ---
 
 Choose a topic from one of the menu sections on the left.
+
+{% include video.html %}
 
 <!--
 uncomment to add 'Quick start' content

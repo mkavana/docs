@@ -10,10 +10,12 @@ category: quickstart
 position-in-category: 1
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
-video_url: "none"
+video_url: "https://web.microsoftstream.com/embed/video/437d4b4b-4aec-41ef-a91f-1ae97a1fcd4e?autoplay=false&amp;showinfo=true"
 ---
 
 Choose a topic from one of the menu sections on the left.
+
+{% include video.html %}
 
 <!--
 uncomment to add 'Quick start' content

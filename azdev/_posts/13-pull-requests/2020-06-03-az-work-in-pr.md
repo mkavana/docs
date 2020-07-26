@@ -10,7 +10,7 @@ post-number: 13.3
 #position-in-category: 3
 include-in-pre-reqs: "true"
 include-in-quickstart: "true"
-video_url: "none"
+video_url: "https://web.microsoftstream.com/embed/video/60192de2-c0fd-4c2c-82ad-b32bcae65d64?autoplay=false&amp;showinfo=true"
 ---
 
 This guide describes...
