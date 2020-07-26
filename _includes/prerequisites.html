@@ -1,13 +1,15 @@
 <div id="prerequisites">
     <h2>Prerequisites</h2>
     <p>Before you proceed complete the following:</p>
-    <ol>
-        {% assign posts = site.posts | where_exp:"post","post.post-number < page.post-number" %}
-        {% assign sorted_posts = (posts | sort) %}
-        {% for post in sorted_posts %}
-        {% if post.include-in-pre-reqs != "false" %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-    </ol>
+    <details>
+        <ol>
+            {% assign posts = site.posts | where_exp:"post","post.post-number < page.post-number" %}
+            {% assign sorted_posts = (posts | sort) %}
+            {% for post in sorted_posts %}
+            {% if post.include-in-pre-reqs != "false" %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ol>
+    </details>
 </div>
