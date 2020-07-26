@@ -48,9 +48,9 @@ The following diagram and accompanying steps provide an overview of the general 
 
 6. For each new image link you add to the markdown file, upload a corresponding image file (PNG) to the appropriate **media** directory by following the guide [Add/ edit images in VSC]({{site.baseurl}}/add-content/add-images.html).
 
-7. In VSC, save, stage and commit the changes you make to the markdown file on your local authoring branch using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
+7. In VSC, save, stage and commit the changes you make to the markdown file on your local authoring branch using the guide [Send (push) files]({{site.baseurl}}/branches/push-files.html).
 
-8. Use VSC to push your local authoring branch (with your file changes) to the project's remote repo, according to the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
+8. Use VSC to push your local authoring branch (with your file changes) to the project's remote repo, according to the guide [Send (push) files]({{site.baseurl}}/branches/push-files.html).
 
 9. Send an email to the appropriate reviewer requesting a review of the content you pushed to the project's remote repo. [Topic 3: Submitting your content for review](#topic3) provides more details about submitting content for review.
 

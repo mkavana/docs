@@ -55,9 +55,9 @@ The following steps are required to conduct a general ID review as part of a typ
 
 4. In VSC, on your local **ID review branch**, open the first markdown file for review, and review the contents of the file according to WayPoint Ventures' guidelines.
 
-5. In VSC, apply, save, stage, and commit any necessary changes/ corrections you make to the markdown file by using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
+5. In VSC, apply, save, stage, and commit any necessary changes/ corrections you make to the markdown file by using the guide [Send (push) files]({{site.baseurl}}/branches/push-files.html).
 
-6. Push the file containing your changes to GitHub by following the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
+6. Push the file containing your changes to GitHub by following the guide [Send (push) files]({{site.baseurl}}/branches/push-files.html).
 
     > **Note**: Push to GitHub regularly, e.g. after you have reviewed a lesson or single file. *Do not wait* until you have reviewed *all* of the files before pushing to GitHub.
     >
@@ -142,7 +142,7 @@ The following steps are required to conduct a general ID review as part of a typ
 
 16. In VSC, apply any required changes/ corrections to the file on your local ID review branch. If necessary, apply any further changes/ corrections to the previous file in accordance with feedback from the content author.
 
-17. On your ID review branch in VSC, save, stage, commit and push your changes to GitHub by using the guide [Upload your changes]({{site.baseurl}}/branches/push-changes.html).
+17. On your ID review branch in VSC, save, stage, commit and push your changes to GitHub by using the guide [Send (push) files]({{site.baseurl}}/branches/push-files.html).
 
 18. Repeat **Step** 14 to 17 until all of the files for review have passed your ID review. Each time you push new changes, the author may evaluate your corrections and provide feedback.
 

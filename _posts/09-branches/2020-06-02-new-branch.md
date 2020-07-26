@@ -75,7 +75,7 @@ Complete the following steps to create a new Git branch using VSC.
 
     ![VSC switched to new branch indicated in VSC status bar](../assets/images/09-branches/create/github/git-createbranch-007.png)
 
-    > **Note**: Your new branch is not on GitHub yet. Only *you* can access and see your new (local) branch, until you send your new branch to GitHub. Send (or **push**) your new branch to GitHub using the instructions provided in the guide [Upload (push) your changes]({{ site.baseurl }}/branches/push-changes.html). Pushing your branch to GitHub will ensure that your new branch is present on GitHub, backed up, and visible to other GitHub contributors.
+    > **Note**: Your new branch is not on GitHub yet. Only *you* can access and see your new (local) branch, until you send your new branch to GitHub. Send (or **push**) your new branch to GitHub using the instructions provided in the guide [Upload (push) your changes]({{ site.baseurl }}/branches/push-branch.html). Pushing your branch to GitHub will ensure that your new branch is present on GitHub, backed up, and visible to other GitHub contributors.
 
 You have created a new branch using VSC successfully.
 
