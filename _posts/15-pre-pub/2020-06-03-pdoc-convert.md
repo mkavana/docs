@@ -13,44 +13,55 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 
-This guide describes how to convert a Markdown file to a Word document.
+This guide describes how to use the software tools **convert_md_to_docx \.bat** and **reference \.dotx** to convert the markdown files (\.md) in a directory to Word documents (\.docx).
+
+> **Note**: This guide assumes you've setup the required software tools by following the guide [Setup file conversion tools]({{site.baseurl}}/pre-pub/setup-tools.html). You *must* also have a copy of the markdown files you want to convert in a directory on your computer. Obtain a copy of the markdown files by cloning the project's remote repository (repo) on GitHub or Azure DevOps using the guide [Download course files (clone repo)]({{site.baseurl}}/download-files/clone-repo.html).
+>
+> Alternatively, if you don't want to clone the project's remote repo, you can download a zip file with the contents of a particular branch from GitHub. Sign in to GitHub, choose the branch with the markdown files you want to covert, select **Code**, and then choose the option to **Download ZIP**.
+>
+> For example, in the following image, the branch **edit-m02-l02** is selected in the GitHub repo **test-repo**, with the option to **Download ZIP**.
+>
+> ![Option to download a zip file from GitHub](../assets/images/15-pre-pub/convert/get-zip-001.png)
+>
+> As part of the conversion process, any images and graphics linked in the markdown file will be embedded into the converted Word documents. Before you begin converting files, copy the corresponding image and graphics directory (**media**) for the markdown files, and paste it into the markdown files directory, on correct file path (relative to the markdown files).
+>
 
 {% include prerequisites.html %}
 
 ## Topics in this guide
 
-- [Topic 1: D/L Files to convert?](#topic1)
-- [Topic 3: Convert Markdown files to Word documents](#topic2)
+- [Topic 1: Convert markdown files to Word documents](#topic1)
 
 {% include video.html %}
 
-## Topic 1: D/L Files to convert? {#topic1}
+## Topic 1: Convert Markdown files to Word documents {#topic1}
 
-## Topic 2: Convert Markdown files to Word documents {#topic2}
+Complete the following steps to use the software tools **convert_md_to_docx \.bat** and **reference \.dotx** to convert the markdown files in a directory to Word documents.
 
-Complete the following steps to use the file **convert_to_DOCX.bat** to convert a Markdown file to a Word document.
+1. Go to the directory **conversion_tools** where you extracted the software tools **convert_md_to_docx \.bat** and **reference \.dotx** from the previous guide [Setup file conversion tools]({{site.baseurl}}/pre-pub/setup-tools.html).
 
-The pandoc command is called from within the batch file `convert_to_DOCX.bat`. If we did not use the batch file we would need to convert each file individually from the command line.
+2. Copy **convert_md_to_docx \.bat** and **reference \.dotx** to your clipboard.
 
-1. Go to the folder in which you have the markdown files you wish to convert, in this example it is the module 5. The folder should also contain the following files, if not you need to obtain them as outlined in earlier tasks, otherwise the conversion process may fail.
+    ![text](../assets/images/15-pre-pub/convert/pdoc-convert-002.png)
 
-    - `convert_to_DOCX.bat`
-    - `reference.dotx`
-    - `Academic ILT Courseware Template.dotx`
-    - `media` folder (this contains the image files referenced in the markdown files)
-
-    ![text](../assets/images/15-pre-pub/convert/pdoc-convert-001.png)
-
-2. In File explorer, or whatever editor you are using, double click on the file `convert_to_DOCX.bat`. The batch will run, a command prompt window will open, it will not require any interaction, and it will close on completion.
-
-3. Once the batch has file completed running, the folder should now contain a docx file for each .md file, as in the screenshot. In this case there are 12 docx files, your module may have more or less .md files, and this more or less .docx files.
+3. Go to the directory with the markdown files you want to convert, and paste **convert_md_to_docx \.bat** and **reference \.dotx** into the markdown files directory.
 
     ![text](../assets/images/15-pre-pub/convert/pdoc-convert-003.png)
 
-    > **Note**: Count the number of .md files and compare against the number of converted .docx files and ensure they match and that no files have been missed. If there has been accidental modification of the batch file, some of the path or file definitions could have changed which might affect the output. This is unlikely, but just do a count to make sure nothing has been missed.
-    >
+    > **Note**: An alternative approach is to copy the markdown files and paste them into the directory **conversion_tools**.
 
-![text](../assets/images/15-pre-pub/convert/img-placeholder.png)
+4. Run the batch script file **convert_md_to_docx \.bat**.
+
+    > **Note**: The batch script will open in a Shell, like Command Prompt. The batch script does not require interaction, and will close on completion.
+
+5. When the batch script has finished, verify that the required number of Word documents were created.
+
+    ![text](../assets/images/15-pre-pub/convert/pdoc-convert-005.png)
+
+    > **Note**: When you've finished converting files, move the converted Word documents, the markdown files, and the software tools to an appropriate storage directory. To convert another set of markdown files, place them in a directory with software tools, and run **convert_md_to_docx \.bat** again.
+   >
+
+You've used the software tools **convert_md_to_docx \.bat** and **reference \.dotx** to convert markdown files in a directory to Word documents successfully.
 
 {% include appendices.html %}
 
