@@ -13,14 +13,14 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 
-This guide describes how to download and install Pandoc, and a zip file that contains the additional software tools required for converting Markdown files (**\.md**) into Microsoft Word documents (**\.docx**).
+This guide describes how to download and install Pandoc, and setup additional software tools for converting Markdown files (**\.md**) into Microsoft Word documents (**\.docx**).
 
-{% include prerequisites.html %}
+<!-- {% include prerequisites.html %} -->
 
 ## Topics in this guide
 
 - [Topic 1: Download and install Pandoc](#topic1)
-- [Topic 2: Download and extract the conversion tools zip](#topic2)
+- [Topic 2: Download and extract file conversion tools](#topic2)
 
 {% include video.html %}
 
@@ -41,7 +41,7 @@ Complete the following steps to download and install Pandoc on your computer.
 
 3. When the **Pandoc installer file** has downloaded, go to the location where you saved the installer file, and run the file.
 
-    > **Note**: At the time of writing, Pandoc 2.9 is the latest version. Adapt the steps to suit the version of Pandoc you are installing.
+    > **Note**: At the time of writing, Pandoc 2.9 is the latest version. Adapt the steps to suit the version of Pandoc you're installing.
     >
 
 4. Use the checkbox **I accept the terms in the Licence Agreement** to accept the terms of the Pandoc licence agreement, then select **Install**.
@@ -58,33 +58,36 @@ Complete the following steps to download and install Pandoc on your computer.
     > **Note** Pandoc does not provide a *Graphical User Interface* (GUI). Instead, Pandoc provides a Command Line Interface (CLI) to perform file conversions in a Shell (like Windows Command Prompt, or Terminal in Linux and macOS).
     >
 
-You have downloaded and installed Pandoc successfully.
+You've downloaded and installed Pandoc successfully.
 
 > **Note**: For more information about using Pandoc, refer to the Pandoc documentation guide [Getting started with pandoc](https://pandoc.org/getting-started.html).
 >
 
-## Topic 2: Download and extract the conversion tools zip {#topic2}
+## Topic 2: Download and extract file conversion tools {#topic2}
 
-Complete the following steps to download the additional software tools required to convert Markdown files (**\.md**) into Microsoft Word documents (**\.docx**). The file conversion tools are compressed in the zip file **conversion_tools \.zip** stored on GitHub.
+Complete the following steps to download and extract additional software tools for converting markdown files into Word documents.
 
-1. In a web browser, sign in to GitHub.
+> **Note**: The additional file conversion software tools are compressed in the zip file **conversion_tools \.zip**, and stored on GitHub.
 
-2. Go to the [Download conversion tools]({{site.baseurl}}/assets/download/conversion_tools.zip) page on GitHub, and save the file **conversion_tools \.zip** to a suitable location on your computer.
+1. Select [Download conversion tools]({{site.baseurl}}/assets/download/conversion_tools.zip), and save the file **conversion_tools \.zip** to a suitable location on your computer.
 
-3. When **conversion_tools \.zip** has downloaded, go to the location where you saved the file, and extract the contents.
+    > **Note**: If the download link doesn't work, open a web browser, sign to GitHub, and select the download link again.
+    >
+
+2. When **conversion_tools \.zip** has downloaded, go to the location where you saved the file, and extract the contents.
 
     > **Note**: If don't have software to extract the zip file, download and install software like [7-zip](https://www.7-zip.org/) or [WinZip](https://www.winzip.com/).
     >
 
-4. Extracting the zip file's contents creates the directory **conversion_tools**.
+3. Extracting the zip file's contents creates the directory **conversion_tools**.
 
-    Go to the directory, and confirm that the directory **conversion_tools** contains the following files:
+    Confirm that the directory **conversion_tools** contains the following files:
 
     - reference \.dotx
     - convert_md_to_docx \.bat
     - template \.dotx
 
-    ![The directory 'conversion_tools' with three extracted files](../assets/images/15-pre-pub/setup/tools-zip-004.png)
+    ![The directory 'conversion_tools' with three extracted files](../assets/images/15-pre-pub/setup/tools-zip-003.png)
 
 You have downloaded and extracted **conversion_tools \.zip** successfully.
 
