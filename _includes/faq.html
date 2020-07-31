@@ -1,0 +1,17 @@
+<table class="table table-hover">
+    <tbody>
+        {% for item in page.faq %}
+        <tr>
+            <td>
+                <details>
+                    <summary>
+                    {{ item.question }}
+                    </summary>
+                    <br>
+                    <div class="answer-text">{{ item.answer | markdownify }}</div>
+                </details>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
