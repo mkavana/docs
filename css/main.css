@@ -9,6 +9,12 @@ body {
     font-family: wf_segoe-ui_normal,Segoe UI,Segeo WP,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
+/* customised */
+.answer-text {
+    margin-left: 1em;
+    color: darkslategrey;
+}
+/* end-customised */
 
 pre, code, pre code {
     border: none;
