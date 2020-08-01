@@ -1,0 +1,14 @@
+<table class="table table-hover">
+    <tbody>
+        {% for item in page.glossary %}
+        <tr>
+            <td>
+                <strong>{{ item.term }}</strong>
+            </td>
+            <td>
+                <div class="answer-text">{{ item.explanation | markdownify }}</div>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
