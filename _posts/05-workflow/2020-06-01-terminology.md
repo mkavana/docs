@@ -25,7 +25,7 @@ Authors, reviewers and other contributors will find this guide useful to underst
 ## Topics in this guide
 
 - [Topic 1: Overview of version control](#topic1)
-- [Topic 2: Introduction to Git, GitHub and Azure repositories](#topic2)
+- [Topic 2: Introduction to Git, GitHub and Azure DevOps repositories](#topic2)
 - [Topic 3: How changes to files are tracked using branches](#topic3)
 - [Topic 4: Using pull requests to share your work](#topic4)
 - [Topic 5: How branching and pull requests apply to the content review process](#topic5)
@@ -40,7 +40,7 @@ The project (course) you are working on contains many files. For example, within
 
 > **Note**: For more information about version control and Git see [What is version control?](https://docs.microsoft.com/azure/devops/learn/git/what-is-version-control)
 
-## Topic 2: Introduction to Git, GitHub and Azure repositories {#topic2}
+## Topic 2: Introduction to Git, GitHub and Azure DevOps repositories {#topic2}
 
 Git allows you to compartmentalize a set of files on your computer within a **Repository** (or repo). For example, the set of files for the course you are working on can be contained within a Git repo. A Git repo can store different versions of the same file, like a text file, a document or an image file. Even when there are different versions of the same file in a Git repo, each version of the file can use the same filename and file contents.
 
@@ -48,11 +48,11 @@ Whenever you modify a file in a Git repo, like editing the words in a text file,
 
 Git implements version control by keeping track of the changes you make to a file in a repo. If there are multiple files in the repo, Git tracks the changes you make to every file.
 
-### Sharing a repo with multiple contributors on GitHub or Azure Repos
+### Sharing a repo with multiple contributors on GitHub or Azure DevOps
 
-You can upload a Git repo from your computer to the GitHub website or to Azure Repos. By uploading a repo, you can share the repo's contents with others. Other contributors can then download (or **clone**) the shared repo, modify the files in the repo, and upload (or **push**) the modified files back to GitHub or Azure Repos.
+You can upload a Git repo from your computer to the GitHub website or to Azure DevOps. By uploading a repo, you can share the repo's contents with others. Other contributors can then download (or **clone**) the shared repo, modify the files in the repo, and upload (or **push**) the modified files back to GitHub or Azure DevOps.
 
-A repo on *your* computer or network is called a **local** repo. A repo on *another* computer, like a GitHub or Azure Repos server, is called a **remote** repo. Services like GitHub and Azure Repos make it possible for multiple contributors to clone the same remote repo onto their (local) computers. Git will track the changes made to every file in each contributor's local repo. Contributors then push changes from their respective local repos back to the remote repo to share their work.
+A repo on *your* computer or network is called a **local** repo. A repo on *another* computer, like a GitHub or Azure DevOps server, is called a **remote** repo. Services like GitHub and Azure DevOps make it possible for multiple contributors to clone the same remote repo onto their (local) computers. Git will track the changes made to every file in each contributor's local repo. Contributors then push changes from their respective local repos back to the remote repo to share their work.
 
 ![Diagram of two local repos sharing a single remote repo](../assets/images/05-workflow/terminology/01-repo-type.png)
 
@@ -70,7 +70,7 @@ The contents of all contributors' branches will be combined with (or **merged** 
 
 ![Diagram of how a single git branch relates to master](../assets/images/05-workflow/terminology/02-single-branch.png)
 
-Services like GitHub and Azure Repos make it possible to share and combine the work of many contributors, from across multiple branches and local repos, into the master branch of a single remote repo.
+Services like GitHub and Azure DevOps make it possible to share and combine the work of many contributors, from across multiple branches and local repos, into the master branch of a single remote repo.
 
 ![Diagram of how multiple git branch are merged into master](../assets/images/05-workflow/terminology/03-multi-branch.png)
 
@@ -86,7 +86,7 @@ Whenever you add or edit content on your branch, save your changes and add your 
 
 - **Staging**: adds new or updated files to a holding or *staging* area in the current repo.
 - **Committing**: puts or *commits* changes made to staged files onto the current repo's file history/ timeline.
-- **Pushing**: sends or *pushes* changes committed to the current repo to the remote repo (e.g. from a local repo on your computer to a remote repo on GitHub or Azure Repos).
+- **Pushing**: sends or *pushes* changes committed to the current repo to the remote repo (e.g. from a local repo on your computer to a remote repo on GitHub or Azure DevOps).
 
 Stage and commit the changes you make to files in your local repo regularly, then push your changes to the remote repo. Regularly committing and pushing your changes creates a backup of your work, and makes your work visible to other contributors. In general, make small and regular commits, rather than one large commit at the end.
 
