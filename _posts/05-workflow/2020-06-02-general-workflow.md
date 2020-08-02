@@ -36,7 +36,7 @@ The following diagram shows a simplified version of a typical project's workflow
 The previous workflow diagram applies to most projects, but you should also consult with your project manager to ensure that you:
 
 - understand the specific requirements, structure and design for the course you are working on (like main stakeholders, intended audience, number of modules, etc.).
-- know where the files and resources that you need to complete your work are stored and how to access them. For example, does the project use Teams, SharePoint, GitHub, Azure Repos, etc.
+- know where the files and resources that you need to complete your work are stored and how to access them. For example, does the project use Teams, SharePoint, GitHub, Azure DevOps, etc.
 - have access to the resources you need to complete your work.
 
 ## Topic 2: Comprehensive project workflow {#topic2}

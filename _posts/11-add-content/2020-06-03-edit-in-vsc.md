@@ -65,6 +65,8 @@ This guide describes how to edit, or add content to, a markdown file using the V
 
     > **Note**: Select the **VSC explorer icon** to toggle **VSC side bar** on and off or use the shortcut keys **SHIFT** + **\\**. You can open more than one file at a time in VSC, and each file can be opened in a separate **VSC editor tab**.
     >
+    > For more information about VSC shortcut keys, refer to [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
+    >
 
 6. In the **VSC editor tab**, make your required changes by editing or adding content to the markdown file.
 

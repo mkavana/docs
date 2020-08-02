@@ -63,7 +63,7 @@ Complete the following steps to restore a deleted branch using GitHub.
 
     !['Branches dropdown' on GitHub](../assets/images/09-branches/recover/github/recover-007.png)
 
-8. Add the restored branch into your local repo with the `git pull` command by following the guide [Update branch]({{site.baseurl}}/branches/pull-updates.html).
+8. Add the restored branch into your local repo with the `git pull` command by following the guide [Update branch (pull)]({{site.baseurl}}/branches/pull-updates.html).
 
     > **Note**: If you don't have a local repo, create one by cloning the project's GitHub repo using the guide [Download course files (clone repo)]({{site.baseurl}}/download-files/clone-repo.html).
     >
