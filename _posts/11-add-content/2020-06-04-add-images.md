@@ -112,6 +112,8 @@ Complete the following steps to add an image or graphic into a markdown file usi
     >
     > Using VSC markdown previews can help you to identify and address content formatting issues, like inconsistent indenting, that can cause PNG files to display incorrectly. You should also fix any syntax errors that VSC highlights by following the guide [Fix linter issues]({{site.baseurl}}/add-content/fix-linter.html).
     >
+    > For information about VSC shortcut keys, refer to [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
+    >
 
 9. When you have finished adding images or graphics into the markdown file, save, stage, commit, and push your markdown *and PNG files* to the project's remote repo by following the guide [Send (push) files]({{site.baseurl}}/branches/push-files.html).
 
