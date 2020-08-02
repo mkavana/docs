@@ -37,7 +37,7 @@ Complete the following steps to edit your existing Git credentials in Visual Stu
 
 ## Topic 2: Get the latest files from GitHub or Azure DevOps {#topic2}
 
-Before you make changes to the files in your local repository (repo), get the latest files from the project's remote repo on GitHub or Azure DevOps using `git pull`. Use `git pull` by following the guide [Update branch]({{site.baseurl}}/branches/pull-updates.html), or by completing the following steps:
+Before you make changes to the files in your local repository (repo), get the latest files from the project's remote repo on GitHub or Azure DevOps using `git pull`. Use `git pull` by following the guide [Update branch (pull)]({{site.baseurl}}/branches/pull-updates.html), or by completing the following steps:
 
 - Open VSC
 - Select **Terminal** > **New Terminal**
@@ -70,7 +70,7 @@ Make a backup at the end of each day, especially at the end of a particularly pr
 
 Ensure you've a "clean" local repo before you start working on files. This is particularly important if you're unsure about which files you updated, or the state of your local repo. Before you update files, complete the following steps to create a clean repo:
 
-- Pull the latest files from the project's remote repo (on GitHub or Azure DevOps) by following the guide [Update branch]({{site.baseurl}}/branches/pull-updates.html)
+- Pull the latest files from the project's remote repo (on GitHub or Azure DevOps) by following the guide [Update branch (pull)]({{site.baseurl}}/branches/pull-updates.html)
 - Copy the contents of your local repo, and paste them into your backup folder
 - Delete your original local repo (*do not delete* the backup copy you just made)
 - Make a new clone of the project's remote repo using `git clone` by following the guide [Download course files (clone repo)]({{site.baseurl}}/download-files/clone-repo.html).

@@ -1,6 +1,6 @@
 ---
 layout: multi
-title: Update branch
+title: Update branch (pull)
 subtitle: GitHub - pull latest files from GitHub
 description: A guide to updating a local repo with the latest files from a GitHub repo using the Git pull command
 author: mkavana

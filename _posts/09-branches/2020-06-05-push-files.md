@@ -109,7 +109,7 @@ If you receive a message stating that your branch has *no upstream branch*, your
 
 ### Error: can't push refs to remote
 
-If you receive an error message stating that VSC **Can't push refs to remote. Try running pull first...**. Run the `git pull` command from the VSC Terminal, as described in the previous guide [Update branch]({{ site.baseurl}}/branches/pull-updates.html). The `git pull` command gets the latest files from GitHub, and merges them with the files in your local repo. When the `git pull` command is completed successfully, run the **git push** command again.
+If you receive an error message stating that VSC **Can't push refs to remote. Try running pull first...**. Run the `git pull` command from the VSC Terminal, as described in the previous guide [Update branch (pull)]({{ site.baseurl}}/branches/pull-updates.html). The `git pull` command gets the latest files from GitHub, and merges them with the files in your local repo. When the `git pull` command is completed successfully, run the **git push** command again.
 
 ![VSC 'cannot push refs' Git push error message](../assets/images/09-branches/push/git-push-vsc-error-002.png)
 
