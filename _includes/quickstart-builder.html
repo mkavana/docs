@@ -17,7 +17,7 @@
         {% if post.include-in-quickstart != "false" %}
         {% assign counter = counter | plus: 1 %}
         <li>
-            <a href="{{site.baseurl}}{{ quickstart/quickstart.html }}#guide{{ counter }}">{{ post.title }}</a>
+            <a href="{{site.baseurl}}/quickstart/quickstart.html#guide{{counter}}">{{ post.title }}</a>
         </li>
         {% endif%}
         {% endfor %}
@@ -36,11 +36,10 @@
         | remove: incl-vid
         | remove: incl-pag
         | remove: incl-apn
-        | remove: site-base
+        | replace: site-base, "/docs-v2-DEV"
         | markdownify
     }}</div>
     <hr>
     {% endif%}
     {% endfor %}
 </div>
-
