@@ -1,13 +1,46 @@
 <div id="quickstart-builder">
-    <h2>It is essential that you complete the following guides to make a contribution</h2>
-    <ul>
-        {% assign page_names = site.posts %}
-        {% for page_name in page_names reversed %}
-        {% if page_name.include-in-quickstart != "false" %}
+    {% assign counter = 0 %}
+    {% assign counter1 = 0 %}
+    {% assign lbrace-pcent = "{%" %}
+    {% assign pcent = '%' %}
+    {% assign rbrace = '}' %}
+    {% assign pcent-rbrace = pcent | append: rbrace %}
+    {% assign incl-pre = " include prerequisites.html" %}
+    {% assign incl-vid = " include video.html" %}
+    {% assign incl-pag = " include paginator.html" %}
+    {% assign incl-apn = " include appendices.html" %}
+    {% assign site-base = "{{site.baseurl}}" %}
+    <h2>Guides in this quick start</h2>
+    <p>This quick start includes the following guides:</p>
+    <ol>
+        {% for post in site.posts reversed %}
+        {% if post.include-in-quickstart != "false" %}
+        {% assign counter = counter | plus: 1 %}
         <li>
-            <a href="{{ site.baseurl }}{{ page_name.url }}">{{ page_name.title }}</a>
+            <a href="{{site.baseurl}}{{ quickstart/quickstart.html }}#guide{{ counter }}">{{ post.title }}</a>
         </li>
         {% endif%}
         {% endfor %}
-    </ul>
+    </ol>
 </div>
+<div id="single-guide">
+    {% for post in site.posts reversed %}
+    {% if post.include-in-quickstart != "false" %}
+    {% assign counter1 = counter1 | plus: 1 %}
+    <h1 id="guide{{ counter1 }}">{{ counter1 }}: {{ post.title }}</h1>
+    <div>{{
+        post.content
+        | remove: lbrace-pcent
+        | remove: pcent-rbrace
+        | remove: incl-pre
+        | remove: incl-vid
+        | remove: incl-pag
+        | remove: incl-apn
+        | remove: site-base
+        | markdownify
+    }}</div>
+    <hr>
+    {% endif%}
+    {% endfor %}
+</div>
+

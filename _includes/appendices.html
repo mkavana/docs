@@ -4,7 +4,7 @@
     <p>Check the following supplementary <strong>Appendices</strong> for more details and context.</p>
     <ul>
         {% for post in site.categories.appendices reversed %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
     {% else %}

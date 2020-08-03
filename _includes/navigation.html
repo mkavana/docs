@@ -1,8 +1,8 @@
 <ul class="nav nav-list">
     {% if page.url == "/" %}
-        <li><a class="nav-active" href="{{ site.baseurl }}/">Welcome</a></li>  
+        <li><a class="nav-active" href="{{site.baseurl}}/">Welcome</a></li>  
     {% else %}
-        <li><a href="{{ site.baseurl }}/">Welcome</a></li>
+        <li><a href="{{site.baseurl}}/">Welcome</a></li>
     {% endif %}
 
     {% for section in site.sections %}
@@ -16,9 +16,9 @@
             {% endif %}
 
             {% if p.url == page.url %}
-                <li data-order="{{ p.position-in-category }}"><a class="nav-active" href="{{ site.baseurl }}{{ p.url }}">{{ p.title}}</a></li>
+                <li data-order="{{ p.position-in-category }}"><a class="nav-active" href="{{site.baseurl}}{{ p.url }}">{{ p.title}}</a></li>
                 {% else %}
-                <li data-order="{{ p.position-in-category }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title}}</a></li>
+                <li data-order="{{ p.position-in-category }}"><a href="{{site.baseurl}}{{ p.url }}">{{ p.title}}</a></li>
             {% endif %}
         {% endfor %}
     {% endfor %}

@@ -22,11 +22,11 @@ This guide provides an overview of the prepublication preparations for a typical
 
 ## Topics in this guide
 
-- [Topic 1: An overview of prepublication preparations](#topic1)
+- [An overview of prepublication preparations](#prepub-overview)
 
 {% include video.html %}
 
-## Topic 1: An overview of prepublication preparations {#topic1}
+## An overview of prepublication preparations {#prepub-overview}
 
 Where relevant, the file conversion process involves creating a Microsoft Word document from each markdown file that has passed all reviewing, editing, and testing stages. Typically, finalized markdown files are stored in a designated directory (for example, on GitHub, Azure DevOps, Teams, or SharePoint). The file conversion process is usually performed by a dedicated WayPoint team member who is responsible for making the prepublication preparations.
 

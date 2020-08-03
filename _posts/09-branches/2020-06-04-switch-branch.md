@@ -19,11 +19,11 @@ This guide describes how to switch from one Git branch to another branch using t
 
 ## Topics in this guide
 
-- [Topic 1: Switch between branches in VSC](#topic1)
+- [Switch between branches in VSC](#switch-branch)
 
 {% include video.html %}
 
-## Topic 1: Switch between branches in VSC {#topic1}
+## Switch between branches in VSC {#switch-branch}
 
 1. Open VSC and go to **File** > **Open Folder**.
 

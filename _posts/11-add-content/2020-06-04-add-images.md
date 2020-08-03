@@ -19,12 +19,12 @@ video_url: "none"
 
 ## Topics in this guide
 
-- [Topic 1: Add an image or graphic to a markdown file using VSC](#topic1)
-- [Topic 2: Update an image or graphic](#topic2)
+- [Add an image or graphic to a markdown file using VSC](#edit-image-vsc)
+- [Update an image or graphic](#update-image)
 
 {% include video.html %}
 
-## Topic 1: Add an image or graphic to a markdown file using VSC {#topic1}
+## Add an image or graphic to a markdown file using VSC {#edit-image-vsc}
 
 Complete the following steps to add an image or graphic into a markdown file using VSC.
 
@@ -121,7 +121,7 @@ Complete the following steps to add an image or graphic into a markdown file usi
 
 You have added a new image or graphic into a markdown file using VSC successfully.
 
-## Topic 2: Update an image or graphic {#topic2}
+## Update an image or graphic {#update-image}
 
 This topic describes how to update an image or graphic.
 

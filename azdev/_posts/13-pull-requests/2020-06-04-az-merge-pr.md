@@ -1,15 +1,15 @@
 ---
 layout: multi
 title: Merge a pull request
-subtitle:
+subtitle: AzDevOps
 description:
 author:
 date: 01 Jun 2020
 post-number: 13.4
 #category: pull-requests
 #position-in-category: 4
-include-in-pre-reqs: "true"
-include-in-quickstart: "true"
+include-in-pre-reqs: "false"
+include-in-quickstart: "false"
 video_url: "https://web.microsoftstream.com/embed/video/3b533444-94f5-46c5-97f8-52d8fca5c81c?autoplay=false&amp;showinfo=true"
 ---
 
@@ -19,11 +19,11 @@ This guide describes...
 
 ## Topics in this guide
 
-- [Topic 1: Example topic](#topic1)
+- [Example](#example-shortname)
 
 {% include video.html %}
 
-## Topic 1: Example topic {#topic1}
+## Example {#example-shortname}
 
 Complete the following steps to..., as shown in the following sample image.
 

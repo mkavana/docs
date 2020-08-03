@@ -24,12 +24,12 @@ This guide describes how to attach the style template file **template \.dotx** t
 
 ## Topics in this guide
 
-- [Topic 1: Attach the style template file in Microsoft Word](#topic1)
-- [Topic 2: Configure style options in Microsoft Word](#topic2)
+- [Attach the style template file in Microsoft Word](#attach-dotx)
+- [Configure style options in Microsoft Word](#configure-dotx)
 
 {% include video.html %}
 
-## Topic 1: Attach the style template file in Microsoft Word {#topic1}
+## Attach the style template file in Microsoft Word {#-attach-dotx}
 
 Complete the following steps to attach the style template file **template \.dotx** to a Word document converted from markdown.
 
@@ -49,16 +49,16 @@ Complete the following steps to attach the style template file **template \.dotx
 
     ![The 'Templates and Add-ins' dialogue box in Microsoft Word](../assets/images/15-pre-pub/config-styles/attach-template-004.png)
 
-    > **Note**: Keep the document open to follow the steps in [Topic 2: Configure style options in Microsoft Word](#topic2).
+    > **Note**: Keep the document open to follow the steps in [Configure style options in Microsoft Word](#configure-dotx).
     >
 
 You've attached **template \.dotx** to a Word document successfully.
 
-## Topic 2: Configure style options in Microsoft Word {#topic2}
+## Configure style options in Microsoft Word {#configure-dotx}
 
 Complete the following steps to configure the style options in Microsoft Word.
 
-1. In Microsoft Word, open a document you want to apply styling to, and attach **template \.dotx** by following the steps in [Topic 1: Attach the style template file in Microsoft Word](#topic1).
+1. In Microsoft Word, open a document you want to apply styling to, and attach **template \.dotx** by following the steps in [Attach the style template file in Microsoft Word](#attach-dotx).
 
 2. Open the **Styles** pane with the shortcut keys **Ctrl** + **Shift** + **Alt** + **S**, or by using the **Expand window** icon below the **Style** mini toolbar.
 

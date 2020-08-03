@@ -21,11 +21,11 @@ This guide describes the general **Test** process for a typical project.
 
 ## Topics in this guide
 
-- [Topic 1: Overview of the test process](#topic1)
+- [Overview of the test process](#test-overview)
 
 {% include video.html %}
 
-## Topic 1: Overview of the test process {#topic1}
+## Overview of the test process {#test-overview}
 
 In addition to reviews, the content developed for some projects must be tested at various stages in the project's life cycle. Examples of tests include checking the content for plagiarism, inclusive design and hyperlink integrity. How and when tests are conducted can vary between projects. Ask your project manager about the specific test processes that apply to the course you are working on.
 

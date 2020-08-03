@@ -28,13 +28,13 @@ The Microsoft [Docs Authoring Pack](https://marketplace.visualstudio.com/items?i
 
 ## Topics in this guide
 
-- [Topic 1: View syntax and spelling errors in VSC](#topic1)
-- [Topic 2: Address a syntax error in VSC](#topic2)
-- [Topic 3: Address a spelling error in VSC](#topic3)
+- [View syntax and spelling errors in VSC](#lint-view)
+- [Address a syntax error in VSC](#error-syntax)
+- [Address a spelling error in VSC](#error-spell)
 
 {% include video.html %}
 
-## Topic 1: View syntax and spelling errors in VSC {#topic1}
+## View syntax and spelling errors in VSC {#lint-view}
 
 Complete the following steps to view syntax and spelling errors in VSC.
 
@@ -79,12 +79,12 @@ Complete the following steps to view syntax and spelling errors in VSC.
 
 5. Scroll through the list of problems in the VSC **PROBLEMS** panel for details about the remaining syntax and spelling errors.
 
-    > **Note**: Keep the VSC **PROBLEMS** panel open to follow the steps in [Topic 2: Address a syntax error in VSC](#topic2).
+    > **Note**: Keep the VSC **PROBLEMS** panel open to follow the steps in [Address a syntax error in VSC](#error-syntax).
     >
 
 You have viewed syntax and spelling errors in VSC successfully.
 
-## Topic 2: Address a syntax error in VSC {#topic2}
+## Address a syntax error in VSC {#error-syntax}
 
 Complete the following steps to address a syntax error in VSC.
 
@@ -111,12 +111,12 @@ Complete the following steps to address a syntax error in VSC.
 
     > **Note**: Address as many syntax errors as possible. Ignore certain syntax errors if you're intentionally using a markdown syntax that's different from what the linting tool expects. If you're unsure about a particular syntax error, ask your project manager for help.
     >
-    > Keep the VSC **PROBLEMS** panel open to follow the steps in [Topic 3: Address a spelling error in VSC](#topic3).
+    > Keep the VSC **PROBLEMS** panel open to follow the steps in [Address a spelling error in VSC](#error-spell).
     >
 
 You have addressed a syntax error in VSC successfully.
 
-## Topic 3: Address a spelling error in VSC {#topic3}
+## Address a spelling error in VSC {#error-spell}
 
 1. With the VSC **PROBLEMS** panel open, select a spelling error indicated with a **blue colored information icon** in the VSC **PROBLEMS** panel.
 

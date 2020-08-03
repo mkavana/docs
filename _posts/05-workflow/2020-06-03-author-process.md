@@ -15,20 +15,20 @@ video_url: "none"
 
 This guide describes the general content authoring process for a typical project.
 
-> **Note**: The authoring process described in this guide is generalized and is not intended to capture the authoring process entirely. The authoring process can vary between projects and type of review. In this guide, Topic 3 describes [Submitting your content for review](#topic3) and information about specific review processes is available from the guides in the remainder of the **Workflow and processes** section. If you are unsure about the content authoring process, consult your project manager.
+> **Note**: The authoring process described in this guide is generalized and is not intended to capture the authoring process entirely. The authoring process can vary between projects and type of review. In this guide, Topic 3 describes [Submitting your content for review](#author-review), and information about specific review processes is available from the guides in the remainder of the **Workflow and processes** section. If you are unsure about the content authoring process, consult your project manager.
 
 {% include prerequisites.html %}
 
 ## Topics in this guide
 
-- [Topic 1: Summary of the content authoring process](#topic1)
-- [Topic 2: Authoring branch naming convention](#topic2)
-- [Topic 3: Submitting your content for review](#topic3)
-- [Topic 4: Key points about the content authoring process](#topic4)
+- [Summary of the content authoring process](#author-summary)
+- [Authoring branch naming convention](#author-branch)
+- [Submitting your content for review](#author-review)
+- [Key points about the content authoring process](#author-points)
 
 {% include video.html %}
 
-## Topic 1: Summary of the content authoring process {#topic1}
+## Summary of the content authoring process {#author-summary}
 
 The following diagram and accompanying steps provide an overview of the general content authoring process for a typical project.
 
@@ -40,7 +40,7 @@ The following diagram and accompanying steps provide an overview of the general 
 
 3. Create a new branch in your local repo with VSC using the guide [Create new branch]({{site.baseurl}}/branches/new-branch.html). The new branch is your local **authoring branch**, and should be created from the **master** branch.
 
-    > **Note**: Apply the branch naming convention `m <module number> auth <author's surname>` to your new authoring branch, as described in [Topic 2: Authoring branch naming convention](#topic2).
+    > **Note**: Apply the branch naming convention `m <module number> auth <author's surname>` to your new authoring branch, as described in [Authoring branch naming convention](#author-branch).
 
 4. In VSC, work on your local authoring branch to create a new markdown file or open an existing markdown file to edit.
 
@@ -52,7 +52,7 @@ The following diagram and accompanying steps provide an overview of the general 
 
 8. Use VSC to push your local authoring branch (with your file changes) to the project's remote repo, according to the guide [Send (push) files]({{site.baseurl}}/branches/push-files.html).
 
-9. Send an email to the appropriate reviewer requesting a review of the content you pushed to the project's remote repo. [Topic 3: Submitting your content for review](#topic3) provides more details about submitting content for review.
+9. Send an email to the appropriate reviewer requesting a review of the content you pushed to the project's remote repo. [Submitting your content for review](#author-review) provides more details about submitting content for review.
 
 10. The reviewer will create a new **Pull Request** for your new/ modified content in the project's remote repo by using the guide [Create pull request]({{site.baseurl}}/pull-requests/create-pr.html).
 
@@ -66,7 +66,7 @@ The following diagram and accompanying steps provide an overview of the general 
 
 14. When all necessary changes have been applied, the reviewer will merge your new/ updated content from your authoring branch into the master branch of the project's remote repo.
 
-## Topic 2: Authoring branch naming convention {#topic2}
+## Authoring branch naming convention {#author-branch}
 
 Each author must work in their own authoring branch. A separate authoring branch for each module is also required. This approach keeps the content separated per author, at each stage in the process, and on a module by module basis.
 
@@ -90,7 +90,7 @@ The following explains how the example authoring branch name `m6authlee` is cons
 
 Putting the previous items together results in the authoring branch name `m6authlee`.
 
-## Topic 3: Submitting your content for review {#topic3}
+## Submitting your content for review {#author-review}
 
 All content developed for the project must be reviewed at various stages in the project’s life cycle. Most projects require Technical, Educational, Instructional Design and Inclusively reviews, as well as Copy Editing, and Compliance and Plagiarism Testing (among others). Typically, a content author initiates a review by sending an email to the reviewer to request a review. The author's email *must* provide the following details:
 
@@ -107,7 +107,7 @@ The following diagram exemplifies some of the branching structure required for s
 
 ![Diagram of the branching structure required for single module, as part of a typical review process](../assets/images/05-workflow/author/github/02-branch-structure.png)
 
-## Topic 4: Key points about the content authoring process {#topic4}
+## Key points about the content authoring process {#author-points}
 
 The following points summarize the main aspects of the content authoring process. Clarify the details of how the workflow applies to the course you are working on with your project manager.
 

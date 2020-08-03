@@ -1,15 +1,15 @@
 ---
 layout: multi
 title: Work in a pull request
-subtitle:
+subtitle: AzDevOps
 description:
 author:
 date: 01 Jun 2020
 post-number: 13.3
 #category: pull-requests
 #position-in-category: 3
-include-in-pre-reqs: "true"
-include-in-quickstart: "true"
+include-in-pre-reqs: "false"
+include-in-quickstart: "false"
 video_url: "https://web.microsoftstream.com/embed/video/60192de2-c0fd-4c2c-82ad-b32bcae65d64?autoplay=false&amp;showinfo=true"
 ---
 
@@ -19,11 +19,11 @@ This guide describes...
 
 ## Topics in this guide
 
-- [Topic 1: Example topic](#topic1)
+- [Example](#example-shortname)
 
 {% include video.html %}
 
-## Topic 1: Example topic {#topic1}
+## Example {#example-shortname}
 
 Complete the following steps to..., as shown in the following sample image.
 

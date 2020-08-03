@@ -13,27 +13,10 @@ include-in-quickstart: "false"
 video_url: "https://web.microsoftstream.com/embed/video/e0424e48-398f-4983-9677-551a98c1f9d2?autoplay=false&showinfo=true"
 ---
 
-Choose a topic from one of the menu sections on the left.
+<!-- This **quick start** provides a collection of guides, on a single page, that are essential to contributing content on Azure DevOps. Use this quick start to learn what's required to "get up and running" quickly. Alternatively, choose a single guide from the left sidebar menu. -->
+
+This guide is being developed. Choose a single guide from the left sidebar menu instead.
 
 {% include video.html %}
 
-<!--
-uncomment to add 'Quick start' content
-
-This guide describes...
-
-## Topics in this guide
-
-- [Topic 1: Example topic](#topic1)
-
-{% include video.html %}
-
-## Topic 1: Example topic {#topic1}
-
-Complete the following steps to..., as shown in the following sample image.
-
-![Alt image text placeholder](../../assets/images/01-quickstart/azdev/img-placeholder.png)
-
--->
-
-{% include appendices.html %}
+<!-- {% include quickstart-builder.html %} -->

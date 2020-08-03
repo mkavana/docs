@@ -19,15 +19,15 @@ In this guide, you will download (or clone) a copy of the course files from GitH
 
 ## Topics in this guide
 
-- [Task 1: Clone the GitHub repo](#topic1)
+- [Clone the GitHub repo](#clone-github)
 
 {% include video.html %}
 
-## Task 1: Clone the GitHub repo {#topic1}
+## Clone the GitHub repo {#clone-github}
 
 Complete the following steps to download (**clone**) the project's repo from GitHub.
 
-1. Open a web browser. Go to [github.com](github.com) and sign into GitHub.
+1. Open a web browser. Go to [https://github.com](https://github.com), and sign into GitHub.
 
 2. Go to the project's GitHub repo at `https://github.com/WaypointVentures/<project repo name>`, where `<project repo name>` refers to the name of the project you are working on.
 

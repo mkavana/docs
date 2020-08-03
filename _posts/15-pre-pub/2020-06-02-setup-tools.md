@@ -19,12 +19,12 @@ This guide describes how to download and install Pandoc, and setup additional so
 
 ## Topics in this guide
 
-- [Topic 1: Download and install Pandoc](#topic1)
-- [Topic 2: Download and extract file conversion tools](#topic2)
+- [Download and install Pandoc](#pandoc-install)
+- [Download and extract file conversion tools](#convert-tools)
 
 {% include video.html %}
 
-## Topic 1: Download and install Pandoc {#topic1}
+## Download and install Pandoc {#pandoc-install}
 
 Complete the following steps to download and install Pandoc on your computer.
 
@@ -63,7 +63,7 @@ You've downloaded and installed Pandoc successfully.
 > **Note**: For more information about using Pandoc, refer to the Pandoc documentation guide [Getting started with pandoc](https://pandoc.org/getting-started.html).
 >
 
-## Topic 2: Download and extract file conversion tools {#topic2}
+## Download and extract file conversion tools {#convert-tools}
 
 Complete the following steps to download and extract additional software tools for converting markdown files into Word documents.
 

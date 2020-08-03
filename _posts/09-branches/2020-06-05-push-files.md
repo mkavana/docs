@@ -15,19 +15,19 @@ video_url: "none"
 
 This guide describes sending (or pushing) the course files that you created or modified from your computer to GitHub, using the Visual Studio Code (VSC) editor.
 
-> **Note**: This guide uses the Git terminology described in the previous guide [Terminology and concepts]({{ site.baseurl}}/workflow/terminology.html).
+> **Note**: This guide uses the Git terminology described in the previous guide [Terminology and concepts]({{site.baseurl}}/workflow/terminology.html).
 >
 
 {% include prerequisites.html %}
 
 ## Topics in this guide
 
-- [Topic 1: Stage, commit and push your files to GitHub](#topic1)
-- [Topic 2: Address Git push-related errors](#topic2)
+- [Stage, commit and push your files to GitHub](#stage-and-push)
+- [Address Git push-related errors](#push-errors)
 
 {% include video.html %}
 
-## Topic 1: Stage, commit and push your files to GitHub {#topic1}
+## Stage, commit and push your files to GitHub {#stage-and-push}
 
 Complete the following steps to stage, commit and push your files to GitHub.
 
@@ -93,13 +93,13 @@ Complete the following steps to stage, commit and push your files to GitHub.
 
 You have pushed modified course files from your computer to GitHub using VSC successfully.
 
-## Topic 2: Address Git push-related errors {#topic2}
+## Address Git push-related errors {#push-errors}
 
 The following are common errors that can occur when you push files to GitHub. You *must* address these errors to run the `git push` command successfully.
 
 ### Error: your file changes do not appear on GitHub
 
-If your file changes are not present on GitHub, check that you staged, committed and pushed your file changes correctly. Repeat the Git commands from the previous [Topic 1: Stage, commit and push your files to GitHub](#topic1), if necessary.
+If your file changes are not present on GitHub, check that you staged, committed and pushed your file changes correctly. Repeat the Git commands from the previous [Stage, commit and push your files to GitHub](#stage-and-push), if necessary.
 
 ### Error: no upstream branch
 
@@ -109,7 +109,7 @@ If you receive a message stating that your branch has *no upstream branch*, your
 
 ### Error: can't push refs to remote
 
-If you receive an error message stating that VSC **Can't push refs to remote. Try running pull first...**. Run the `git pull` command from the VSC Terminal, as described in the previous guide [Update branch (pull)]({{ site.baseurl}}/branches/pull-updates.html). The `git pull` command gets the latest files from GitHub, and merges them with the files in your local repo. When the `git pull` command is completed successfully, run the **git push** command again.
+If you receive an error message stating that VSC **Can't push refs to remote. Try running pull first...**. Run the `git pull` command from the VSC Terminal, as described in the previous guide [Update branch (pull)]({{site.baseurl}}/branches/pull-updates.html). The `git pull` command gets the latest files from GitHub, and merges them with the files in your local repo. When the `git pull` command is completed successfully, run the **git push** command again.
 
 ![VSC 'cannot push refs' Git push error message](../assets/images/09-branches/push/git-push-vsc-error-002.png)
 

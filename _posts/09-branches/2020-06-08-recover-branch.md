@@ -23,11 +23,11 @@ This guide describes how to restore a deleted branch using GitHub.
 
 ## Topics in this guide
 
-- [Topic 1: Restore a deleted branch using GitHub](#topic1)
+- [Restore a deleted branch using GitHub](#restore-branch)
 
 {% include video.html %}
 
-## Topic 1: Restore a deleted branch to GitHub {#topic1}
+## Restore a deleted branch to GitHub {#restore-branch}
 
 Complete the following steps to restore a deleted branch using GitHub.
 

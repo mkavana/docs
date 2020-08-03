@@ -21,13 +21,13 @@ This guide describes the general **Technical Review** process for a typical proj
 
 ## Topics in this guide
 
-- [Topic 1: How a technical review is initiated](#topic1)
-- [Topic 2: Steps required to conduct a technical review](#topic2)
-- [Topic 3: Key points about the technical review process](#topic3)
+- [How a technical review is initiated](#tr-summary)
+- [Steps required to conduct a technical review](#tr-steps)
+- [Key points about the technical review process](#tr-points)
 
 {% include video.html %}
 
-## Topic 1: How a technical review is initiated {#topic1}
+## How a technical review is initiated {#tr-summary}
 
 A content author initiates a review by sending an email to the reviewer to request a review. The author's email provides the following details:
 
@@ -54,7 +54,7 @@ A content author initiates a review by sending an email to the reviewer to reque
 >
 > Putting the previous items together results in the authoring branch name `m6authlee`.
 
-## Topic 2: Steps required to conduct a technical review {#topic2}
+## Steps required to conduct a technical review {#tr-steps}
 
 The following steps are required to conduct a general technical review as part of a typical project.
 
@@ -152,7 +152,7 @@ The following steps are required to conduct a general technical review as part o
 
     ![Message indicating that the PR has been successfully on GitHub](../assets/images/05-workflow/tr-process/github/18-merge-success.png)
 
-## Topic 3: Key points about the technical review process {#topic3}
+## Key points about the technical review process {#tr-points}
 
 The following are key points about the technical review process.
 

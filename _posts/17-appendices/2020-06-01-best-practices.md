@@ -15,16 +15,16 @@ video_url: "none"
 
 The following topics provide best practice guidelines to help you develop, review, edit, and prepare course content.
 
-- [Topic 1: Set the correct Git credentials](#topic1)
-- [Topic 2: Get the latest files from GitHub or Azure DevOps](#topic2)
-- [Topic 3: Stage, commit, and push regularly](#topic3)
-- [Topic 4: Backup your work](#topic4)
-- [Topic 5: Use a clean repo](#topic5)
-- [Topic 6: Rollback files in a GitHub repo](#topic6)
-- [Topic 7: Do not copy and paste characters into markdown files](#topic7)
-- [Topic 8: Do not use HTML inside markdown files](#topic8)
+- [Set the correct Git credentials](#verify-credentials)
+- [Get the latest files from GitHub or Azure DevOps](#get-recent-files)
+- [Stage, commit, and push regularly](#regular-commits)
+- [Backup your work](#backup-work)
+- [Use a clean repo](#use-clean-repo)
+- [Rollback files in a GitHub repo](#rollback-repo)
+- [Do not copy and paste characters into markdown files](#no-copy-paste)
+- [Do not use HTML inside markdown files](#no-html)
 
-## Topic 1: Set the correct Git credentials {#topic1}
+## Set the correct Git credentials {#verify-git-credentials}
 
 Ensure you've set the correct Git credentials by following the guide [Set Git credentials]({{site.baseurl}}/install/set-git-credentials.html).
 
@@ -35,7 +35,7 @@ Complete the following steps to edit your existing Git credentials in Visual Stu
 - Type the command `git config`, and press **Enter**
 - Edit and save your Git credentials
 
-## Topic 2: Get the latest files from GitHub or Azure DevOps {#topic2}
+## Get the latest files from GitHub or Azure DevOps {#get-recent-files}
 
 Before you make changes to the files in your local repository (repo), get the latest files from the project's remote repo on GitHub or Azure DevOps using `git pull`. Use `git pull` by following the guide [Update branch (pull)]({{site.baseurl}}/branches/pull-updates.html), or by completing the following steps:
 
@@ -45,7 +45,7 @@ Before you make changes to the files in your local repository (repo), get the la
 
 Use the **VSC Terminal** to perform `git pull` actions. Running `git pull` from the **VSC Command Palette** will not always update the files in your local repo correctly.
 
-## Topic 3: Stage, commit, and push regularly {#topic3}
+## Stage, commit, and push regularly {#regular-commits}
 
 Stage, commit, and push the changes you make as regularly as possible. At the end of each day, and during each day, stage, commit, and push any changes you make to the files in your local "up" to GitHub or Azure DevOps. Regularly staging, committing, and pushing can mitigate against common problems, such as:
 
@@ -57,7 +57,7 @@ Stage, commit, and push the changes you make as regularly as possible. At the en
 > **Note**: Save, stage, commit, and push your file changes by following the guide [Send (push) files]({{site.baseurl}}/branches/push-files.html).
 >
 
-## Topic 4: Backup your work {#topic4}
+## Backup your work {#backup-work}
 
 Create backups of your work periodically. To create a backup:
 
@@ -66,7 +66,7 @@ Create backups of your work periodically. To create a backup:
 
 Make a backup at the end of each day, especially at the end of a particularly productive day.
 
-## Topic 5: Use a clean repo {#topic5}
+## Use a clean repo {#use-clean-repo}
 
 Ensure you've a "clean" local repo before you start working on files. This is particularly important if you're unsure about which files you updated, or the state of your local repo. Before you update files, complete the following steps to create a clean repo:
 
@@ -77,7 +77,7 @@ Ensure you've a "clean" local repo before you start working on files. This is pa
 
 Adopting this approach will get the latest files from GitHub or Azure DevOps, in a clean state, into your local repo. Your local repo will be up-to-date with GitHub or Azure DevOps. This means you don't need to worry about using obsolete files, push errors, or merge conflicts. If you haven't accessed files in your local repo (or branch) for some time, this approach provides a "quick and easy" way to create a clean working environment.
 
-## Topic 6: Rollback files in a GitHub repo {#topic6}
+## Rollback files in a GitHub repo {#rollback-repo}
 
 Revert to an earlier version of a file, or repo state, if you need to. On GitHub, you can view a file's history and revert (or rollback) a file to a previous version. Only consider reverting to a previous file version when you need to retrieve a file's contents.
 
@@ -89,7 +89,7 @@ To rollback a file on GitHub:
 - Select the button **retrieve**
 - Choose the version of the file you want to revert to
 
-## Topic 7: Do not copy and paste characters into markdown files {#topic7}
+## Do not copy and paste characters into markdown files {#no-copy-paste}
 
 Adhere to using the VSC default character set. **Do not copy and paste characters into markdown files** that aren't in the VSC default character set. Copying and pasting characters into markdown files can cause issues that may not be immediately apparent.
 
@@ -104,7 +104,7 @@ Contributors, and reviewers in particular, *must not* attempt to correct charact
 > **Note**: For more information about writing in Markdown, refer to the guide [Markdown syntax guide]({{site.baseurl}}/add-content/syntax.html). For more information about adding markdown into a file in VSC, refer to the guide [Add/ edit markdown in VSC]({{site.baseurl}}/add-content/edit-in-vsc.html).
 >
 
-## Topic 8: Do not use HTML inside markdown files {#topic8}
+## Do not use HTML inside markdown files {#no-html}
 
 Refrain from using HTML inside markdown files. Adding HTML to markdown files can cause rendering issues that may not be obvious in VSC, on GitHub, or Azure DevOps. The following HTML element tags are particularly problematic, and should not be used inside markdown files:
 

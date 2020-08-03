@@ -23,11 +23,11 @@ This guide describes how to download and install the **GitHub Pull Requests and 
 
 ## Topics in this guide
 
-- [Topic 1: Download and install the GitHub Pull Requests and Issues extension](#topic1)
+- [Download and install the GitHub Pull Requests and Issues extension](#install-pr-ext)
 
 {% include video.html %}
 
-## Topic 1: Download and install the GitHub Pull Requests and Issues extension {#topic1}
+## Download and install the GitHub Pull Requests and Issues extension {#install-pr-ext}
 
 Complete the following steps to download and install the GitHub Pull Requests and Issues extension for VSC.
 

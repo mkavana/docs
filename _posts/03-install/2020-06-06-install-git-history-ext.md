@@ -23,11 +23,11 @@ This guide describes how to download and install the **Git History** extension f
 
 ## Topics in this guide
 
-- [Topic 1: Download and install the Git History extension](#topic1)
+- [Download and install the Git History extension](#install-git-history)
 
 {% include video.html %}
 
-## Topic 1: Download and install the Git History extension {#topic1}
+## Download and install the Git History extension {#install-git-history}
 
 Complete the following steps to download and install the Git History extension for VSC.
 
