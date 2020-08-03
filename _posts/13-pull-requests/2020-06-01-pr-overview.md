@@ -15,18 +15,18 @@ video_url: "none"
 
 This guide provides an overview of pull requests.
 
-> **Note**: The overview of pull requests in this guide is a summary of [Topic 4 Using pull requests to share your work]({{ site.baseurl}}/workflow/terminology.html/#topic4) from the previous guide [Terminology and concepts]({{ site.baseurl}}/workflow/terminology.html).
+> **Note**: The overview of pull requests in this guide is a summary of [Using pull requests to share your work]({{site.baseurl}}/workflow/terminology.html/#using-prs) from the previous guide [Terminology and concepts]({{site.baseurl}}/workflow/terminology.html).
 >
 
 {% include prerequisites.html %}
 
 ## Topics in this guide
 
-- [Topic 1: An overview of pull requests](#topic1)
+- [An overview of pull requests](#pr-overview)
 
 {% include video.html %}
 
-## Topic 1: An overview of pull requests {#topic1}
+## An overview of pull requests {#pr-overview}
 
 The following provides an overview of pull requests.
 

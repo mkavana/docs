@@ -19,11 +19,11 @@ This guide describes how to download and install Microsoft's **Visual Studio Cod
 
 ## Topics in this guide
 
-- [Topic 1: Download and install VSC](#topic1)
+- [Download and install VSC](#install-vsc)
 
 {% include video.html %}
 
-## Topic 1: Download and install VSC {#topic1}
+## Download and install VSC {#install-vsc}
 
 Complete the following steps to download and install VSC.
 

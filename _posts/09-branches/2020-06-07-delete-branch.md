@@ -26,12 +26,12 @@ This guide describes how to delete a Git branch using the Visual Studio Code (VS
 
 ## Topics in this guide
 
-- [Topic 1: Delete a branch using VSC](#topic1)
-- [Topic 2: Delete a branch using GitHub](#topic2)
+- [Delete a branch using VSC](#vsc-delete-branch)
+- [Delete a branch using GitHub](#github-delete-branch)
 
 {% include video.html %}
 
-## Topic 1: Delete a branch using VSC {#topic1}
+## Delete a branch using VSC {#vsc-delete-branch}
 
 Complete the following steps to delete a Git branch using VSC.
 
@@ -84,11 +84,11 @@ Complete the following steps to delete a Git branch using VSC.
 
 You have deleted a Git branch using VSC successfully.
 
-## Topic 2: Delete a branch using GitHub {#topic2}
+## Delete a branch using GitHub {#github-delete-branch}
 
 Complete the following steps to delete a Git branch using GitHub.
 
-> **Note**: Deleting a branch using GitHub removes the branch from GitHub only. Your local repo might retain a copy of the branch until you pull updates from GitHub into your local repo, or clone the GitHub repo again. To delete a branch from your local repo and from GitHub, follow the steps in [Topic 1: Delete a branch using VSC](#topic1).
+> **Note**: Deleting a branch using GitHub removes the branch from GitHub only. Your local repo might retain a copy of the branch until you pull updates from GitHub into your local repo, or clone the GitHub repo again. To delete a branch from your local repo and from GitHub, follow the steps in [Delete a branch using VSC](#vsc-delete-branch).
 
 1. Open a web browser, go to the URL for the project's GitHub repo, and sign in to GitHub.
 

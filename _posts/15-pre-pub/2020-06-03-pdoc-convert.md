@@ -30,11 +30,11 @@ This guide describes how to use the software tools **convert_md_to_docx \.bat** 
 
 ## Topics in this guide
 
-- [Topic 1: Convert markdown files to Word documents](#topic1)
+- [Convert markdown files to Word documents](#batch-convert)
 
 {% include video.html %}
 
-## Topic 1: Convert Markdown files to Word documents {#topic1}
+## Convert Markdown files to Word documents {#batch-convert}
 
 Complete the following steps to use the software tools **convert_md_to_docx \.bat** and **reference \.dotx** to convert the markdown files in a directory to Word documents.
 

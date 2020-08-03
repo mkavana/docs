@@ -21,11 +21,11 @@ This guide describes how to download and install the *Software Freedom Conservan
 
 ## Topics in this guide
 
-- [Topic 1: Download and install the SCM Git client](#topic1)
+- [Download and install the SCM Git client](#install-scm-git)
 
 {% include video.html %}
 
-## Topic 1: Download and install the SCM Git client {#topic1}
+## Download and install the SCM Git client {#install-scm-git}
 
 Complete the following steps to download and install the SCM Git client.
 

@@ -29,11 +29,11 @@ This guide describes how to download and install Microsoft's **Docs Authoring Pa
 
 ## Topics in this guide
 
-- [Topic 1: Download and install Microsoft's Docs Authoring Pack](#topic1)
+- [Download and install Microsoft's Docs Authoring Pack](#install-docs-pack)
 
 {% include video.html %}
 
-## Topic 1: Download and install Microsoft's Docs Authoring Pack {#topic1}
+## Download and install Microsoft's Docs Authoring Pack {#install-docs-pack}
 
 Complete the following steps to download and install Microsoft's Docs Authoring Pack for VSC.
 

@@ -19,11 +19,11 @@ This guide describes...
 
 ## Topics in this guide
 
-- [Topic 1: Example topic](#topic1)
+- [Example](#example-shortname)
 
 {% include video.html %}
 
-## Topic 1: Example topic {#topic1}
+## Example {#example-shortname}
 
 Complete the following steps to..., as shown in the following sample image.
 

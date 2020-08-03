@@ -19,12 +19,12 @@ This guide describes how to get (or **pull**) the latest files from GitHub using
 
 ## Topics in this guide
 
-- [Topic 1: Overview of the Git pull command](#topic1)
-- [Topic 2: Get the latest version of the GitHub repo](#topic2)
+- [Overview of the Git pull command](#overview-git-pull)
+- [Get the latest version of the GitHub repo](#steps=git-pull)
 
 {% include video.html %}
 
-## Topic 1: Overview of the Git pull command {#topic1}
+## Overview of the Git pull command {#overview-git-pull}
 
 Git branching makes it possible for multiple contributors to edit the same files in a GitHub repo. Other contributors may update files on GitHub at any time, so it's important to keep the files in your local repo up to date with GitHub.
 
@@ -37,9 +37,9 @@ The `git pull` command gets information about the latest files from GitHub and m
 > **Note**: Whenever you pull files into a specific branch, you *must* ensure that VSC is switched to the correct branch to avoid inadvertently overwriting files. The VSC **status bar**, at the bottom of the editor, indicates the name of branch that VSC is currently switched to.
 >
 
-Save any changes you make to your local repo regularly (using Git **stage** and **commit**). For details about Git terminology and file saving actions visit the guides [Terminology and concepts]({{ site.baseurl }}/workflow/terminology.html) and [send (push) files]({{ site.baseurl }}/branches/push-files.html).
+Save any changes you make to your local repo regularly (using Git **stage** and **commit**). For details about Git terminology and file saving actions visit the guides [Terminology and concepts]({{site.baseurl}}/workflow/terminology.html) and [send (push) files]({{site.baseurl}}/branches/push-files.html).
 
-## Topic 2: Get the latest version of the GitHub rep {#topic2}
+## Get the latest version of the GitHub rep {#steps-git-pull}
 
 Complete the following steps to get the latest files from GitHub into your local repo using `git pull` in VSC.
 

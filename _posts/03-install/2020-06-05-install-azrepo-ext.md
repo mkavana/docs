@@ -23,11 +23,11 @@ This guide describes how to download and install Microsoft's **Azure Repos** ext
 
 ## Topics in this guide
 
-- [Topic 1: Download and install Microsoft's Azure Repos extension](#topic1)
+- [Download and install Microsoft's Azure Repos extension](#install-az-repos)
 
 {% include video.html %}
 
-## Topic 1: Download and install Microsoft's Azure Repos extension {#topic1}
+## Download and install Microsoft's Azure Repos extension {#install-az-repos}
 
 Complete the following steps to download and install Microsoft's Azure Repos extension for VSC.
 

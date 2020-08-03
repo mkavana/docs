@@ -21,11 +21,11 @@ This guide describes how to download and install Microsoft's **Word Count** exte
 
 ## Topics in this guide
 
-- [Topic 1: Download and install Microsoft's Word Count extension](#topic1)
+- [Download and install Microsoft's Word Count extension](#install-word-count)
 
 {% include video.html %}
 
-## Topic 1: Download and install Microsoft's Word Count extension {#topic1}
+## Download and install Microsoft's Word Count extension {#install-word-count}
 
 Complete the following steps to download and install Microsoft's **Word Count** extension for VSC.
 

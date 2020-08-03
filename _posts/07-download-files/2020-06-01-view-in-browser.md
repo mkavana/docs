@@ -17,18 +17,18 @@ In this guide you will view the course files on GitHub using a web browser.
 
 Using a browser provides a "quick and easy" way to view the course files without installing or configuring additional software tools. For example, as part of a content review, if you don't need to add comments or make edits to the content, you can use this guide to view the course files.
 
-> **Note**: The procedure for downloading content from GitHub for editing with Visual Studio Code (VSC) is described on the page [Download course files]({{ site.baseurl }}/download-files/clone-repo.html).
+> **Note**: The procedure for downloading content from GitHub for editing with Visual Studio Code (VSC) is described on the page [Download course files]({{site.baseurl}}/download-files/clone-repo.html).
 
 {% include prerequisites.html %}
 
 ## Topics in this guide
 
-- [Topic 1: Locate the course files on GitHub](#topic1)
-- [Topic 2: View the course files on GitHub](#topic2)
+- [Locate the course files on GitHub](#locate-github)
+- [View the course files on GitHub](#view-github)
 
 {% include video.html %}
 
-## Topic 1: Locate the course files on GitHub {#topic1}
+## Locate the course files on GitHub {#locate-github}
 
 The course files are stored in a GitHub repository (repo) at `https://github.com/WaypointVentures/<project name>`, where `<project name>` refers to the GitHub name for the course (project) you are working on. The GitHub repo contains different versions of the course files. Each set of files is stored in its own compartment within the repo called a **branch**. Ask your project manager for the link to the project's GitHub repo.
 
@@ -36,7 +36,7 @@ As an example, this guide uses the **40574A Azure Fundamentals** ("Az Funds") Gi
 
 > **Note**: A **test repo** is available from GitHub which mirrors the main (production) "Az Funds" GitHub repo. Use the test repo to try out Git actions *before* performing actions in the production repo. Actions performed in the test repo are inconsequential. If you modify or delete your copy of the test repo, create a new copy by using the **git clone** command in VSC (as described later the documentation). If you cannot access the test repo, contact your project manager to request access.
 
-## Task 2: View the course files on GitHub {#topic2}
+## View the course files on GitHub {#view-github}
 
 The following steps demonstrate how to view the GitHub repo's contents with a web browser, to access the branch with the version of the course files you require.
 

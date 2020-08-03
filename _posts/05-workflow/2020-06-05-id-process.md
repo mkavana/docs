@@ -22,14 +22,14 @@ This guide describes the general **Instructional Design (ID) Review** process fo
 
 ## Topics in this guide
 
-- [Topic 1: How an ID review is initiated](#topic1)
-- [Topic 2: Steps required to conduct an ID review](#topic2)
-- [Topic 3: ID review branch naming convention](#topic3)
-- [Topic 4: Key points about the ID review process](#topic4)
+- [How an ID review is initiated](#id-overview)
+- [Steps required to conduct an ID review](#id-steps)
+- [ID review branch naming convention](#id-branching)
+- [Key points about the ID review process](#id-points)
 
 {% include video.html %}
 
-## Topic 1: How an ID review is initiated {#topic1}
+## How an ID review is initiated {#id-overview}
 
 A content author initiates a review by sending an email to the reviewer to request an ID review. An ID review is usually requested when the author has completed content for a course module. The author's email provides the following details:
 
@@ -40,7 +40,7 @@ A content author initiates a review by sending an email to the reviewer to reque
 
 The file(s) for review should be on the master branch of the project's GitHub (remote) repo.
 
-## Topic 2: Steps required to conduct an ID review {#topic2}
+## Steps required to conduct an ID review {#id-steps}
 
 The following steps are required to conduct a general ID review as part of a typical project.
 
@@ -50,7 +50,7 @@ The following steps are required to conduct a general ID review as part of a typ
 
 3. Create a new branch in your local repo with VSC using the guide [Create new branch]({{site.baseurl}}/branches/new-branch.html). The new branch is your local **ID review branch**, and should be created from the **master** branch in VSC.
 
-    > **Note**: Apply the branch naming convention `m <module number> idreview <id reviewer's surname>` to your new branch, as described in [Topic 3: ID review branch naming convention](#topic3). For example, **m6-idreview-lee**.
+    > **Note**: Apply the branch naming convention `m <module number> idreview <id reviewer's surname>` to your new branch, as described in [ID review branch naming convention](#id-branching3). For example, **m6-idreview-lee**.
     >
 
 4. In VSC, on your local **ID review branch**, open the first markdown file for review, and review the contents of the file according to WayPoint Ventures' guidelines.
@@ -170,7 +170,7 @@ The following steps are required to conduct a general ID review as part of a typ
 
 24. Notify the copy editor by email (and the content author) that you have completed your ID review successfully.
 
-## Topic 3: ID review branch naming convention {#topic3}
+## ID review branch naming convention {#id-branching}
 
 Each reviewer must work in their own reviewer's branch. A separate reviewer branch for each module is also required. This approach keeps the content separated per reviewer, at each stage in the process, and on a module by module basis.
 
@@ -196,7 +196,7 @@ The following explains how the example reviewer branch name `m6-idreview-lee` is
 
 Putting the previous items together results in the reviewer branch name `m6-idreview-lee`.
 
-## Topic 4: Key points about the ID review process {#topic4}
+## Key points about the ID review process {#id-points}
 
 The following diagram provides an overview of key points in the general ID review process for a typical project.
 

@@ -24,15 +24,15 @@ Authors, reviewers and other contributors will find this guide useful to underst
 
 ## Topics in this guide
 
-- [Topic 1: Overview of version control](#topic1)
-- [Topic 2: Introduction to Git, GitHub and Azure DevOps repositories](#topic2)
-- [Topic 3: How changes to files are tracked using branches](#topic3)
-- [Topic 4: Using pull requests to share your work](#topic4)
-- [Topic 5: How branching and pull requests apply to the content review process](#topic5)
+- [Overview of version control](#version-control)
+- [Introduction to Git, GitHub and Azure DevOps repositories](#intro-git)
+- [How changes to files are tracked using branches](#tracking)
+- [Using pull requests to share your work](#using-prs)
+- [How branching and pull requests apply to the content review process](#reviews-prs)
 
 {% include video.html %}
 
-## Topic 1: Overview of version control {#topic1}
+## Overview of version control {#version-control}
 
 The project (course) you are working on contains many files. For example, within a project, there might be image and markdown files for each *Student Guide* and *Lesson Plan*, etc. As the project progresses, the project files change as contributors to the project add, edit or remove files, text and image content.
 
@@ -40,7 +40,7 @@ The project (course) you are working on contains many files. For example, within
 
 > **Note**: For more information about version control and Git see [What is version control?](https://docs.microsoft.com/azure/devops/learn/git/what-is-version-control)
 
-## Topic 2: Introduction to Git, GitHub and Azure DevOps repositories {#topic2}
+## Introduction to Git, GitHub and Azure DevOps repositories {#intro-git}
 
 Git allows you to compartmentalize a set of files on your computer within a **Repository** (or repo). For example, the set of files for the course you are working on can be contained within a Git repo. A Git repo can store different versions of the same file, like a text file, a document or an image file. Even when there are different versions of the same file in a Git repo, each version of the file can use the same filename and file contents.
 
@@ -56,7 +56,7 @@ A repo on *your* computer or network is called a **local** repo. A repo on *anot
 
 ![Diagram of two local repos sharing a single remote repo](../assets/images/05-workflow/terminology/01-repo-type.png)
 
-## Topic 3: How changes to files are tracked using branches {#topic3}
+## How changes to files are tracked using branches {#tracking}
 
 A repo can contain different versions of the same files. Within a repo, each version can be stored in its own compartment called a **branch**. Branches allow each contributor to view and edit files in an isolated environment, without affecting the files of other contributors. You create a branch so that *your* edits will only change the files on *your* branch.
 
@@ -74,13 +74,13 @@ Services like GitHub and Azure DevOps make it possible to share and combine the 
 
 ![Diagram of how multiple git branch are merged into master](../assets/images/05-workflow/terminology/03-multi-branch.png)
 
-> **Note**: For more information about creating a new branch, read [Create new branch]({{ site.baseurl }}/branches/new-branch.html).
+> **Note**: For more information about creating a new branch, read [Create new branch]({{site.baseurl}}/branches/new-branch.html).
 
 ### The project's remote repo
 
 The files for the course you are working on are stored in a remote GitHub or Azure repo. To add or edit course content, you *must* clone the project's remote repo to your computer and create a new branch to work in. Ask your project manager for the URL link to the project's remote repo, and follow the guides in the **Workflow and processes** section of this website that are relevant to your role to help you develop your course content.
 
-## Topic 4: Using pull requests to share your work {#topic4}
+## Using pull requests to share your work {#using-prs}
 
 Whenever you add or edit content on your branch, save your changes and add your changes to the remote repo in three steps. The three steps are:
 
@@ -100,7 +100,7 @@ You *must* ask to have the contents of your branch merged into another branch, a
 
 > **Note**: Read more about GitHub PRs on the page [About Pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
-## Topic 5: How branching and pull requests apply to the content review process {#topic5}
+## How branching and pull requests apply to the content review process {#reviews-prs}
 
 All content developed for the project must be reviewed at various stages in the project's life cycle. For example, some projects require Educational, Technical, Instructional Design and Inclusively reviews, as well as Copy Editing. How and when the reviews are conducted can vary between projects. Ask your project manager about the specific review processes that apply to the course you are working on.
 

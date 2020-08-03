@@ -19,11 +19,11 @@ This guide describes how to create a new markdown file using the Visual Studio C
 
 ## Topics in this guide
 
-- [Topic 1: Create a new markdown file using VSC](#topic1)
+- [Create a new markdown file using VSC](#new-markdown-file)
 
 {% include video.html %}
 
-## Topic 1: Create a new markdown file using VSC {#topic1}
+## Create a new markdown file using VSC {#new-markdown-file}
 
 Complete the following steps to create a new markdown file using VSC.
 

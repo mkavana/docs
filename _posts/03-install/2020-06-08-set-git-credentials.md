@@ -21,11 +21,11 @@ These steps are *required* to enable persistent interactions between Git, GitHub
 
 ## Topics in this guide
 
-- [Topic 1: Set your Git global credentials](#topic1)
+- [Set your Git global credentials](#set-credentials)
 
 {% include video.html %}
 
-## Topic 1: Set your Git global credentials {#topic1}
+## Set your Git global credentials {#set-credentials}
 
 Complete the following steps to set your global Git user credentials using VSC.
 

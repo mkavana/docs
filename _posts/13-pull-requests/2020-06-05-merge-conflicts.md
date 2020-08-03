@@ -19,12 +19,12 @@ This guide describes merge conflicts, and how to resolve a simple merge conflict
 
 ## Topics in this guide
 
-- [Topic 1: An overview of merge conflicts](#topic1)
-- [Topic 2: Resolve a simple merge conflict on GitHub](#topic2)
+- [An overview of merge conflicts](#merge-conflicts-overview)
+- [Resolve a simple merge conflict on GitHub](#merge-conflicts-steps)
 
 {% include video.html %}
 
-## Topic 1: An overview of merge conflicts {#topic1}
+## An overview of merge conflicts {#merge-conflicts-overview}
 
 Git users can work in the same file on different branches concurrently. For example, two Git users working on different branches can edit **line number 100** in the file **example \.md**, at the same time, and then push their edited files "up" to GitHub.
 
@@ -41,9 +41,9 @@ Resolving a merge conflict requires "human intervention" to tell Git which versi
 
 There are many causes of merge conflicts. For complex merge conflicts, you must identify the cause of the conflict and implement an appropriate solution. Resolving complex merge conflicts is beyond the scope of this guide. To resolve a complex merge conflict, refer to the GitHub documentation page [Resolving a merge conflict using the command line](https://docs.github.com/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line).
 
-Competing line changes, like in the previous example, are a common cause of simple merge conflicts. To resolve a simple merge conflict, caused by competing line changes, follow the steps in [Topic 2: Resolve a simple merge conflict on GitHub](#topic2).
+Competing line changes, like in the previous example, are a common cause of simple merge conflicts. To resolve a simple merge conflict, caused by competing line changes, follow the steps in [Resolve a simple merge conflict on GitHub](#merge-conflicts-steps).
 
-## Topic 2: Resolve a simple merge conflict on GitHub {#topic2}
+## Resolve a simple merge conflict on GitHub {#merge-conflicts-steps}
 
 1. In a web browser, sign into GitHub, and go to the project's GitHub repository (remote repo).
 

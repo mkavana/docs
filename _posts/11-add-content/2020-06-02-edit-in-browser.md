@@ -21,11 +21,11 @@ This guide describes using a web browser to edit, or add content into, a markdow
 
 ## Topics in this guide
 
-- [Topic 1: Edit a markdown file on GitHub in a web browser](#topic1)
+- [Edit a markdown file on GitHub in a web browser](#edit-browser)
 
 {% include video.html %}
 
-## Topic 1: Edit a markdown file on GitHub in a web browser {#topic1}
+## Edit a markdown file on GitHub in a web browser {#edit-browser}
 
 Complete the following steps use a web browser to edit, or add content into, a markdown file on GitHub.
 

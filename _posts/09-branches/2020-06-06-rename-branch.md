@@ -21,11 +21,11 @@ This guide describes how to rename a Git branch using the Visual Studio Code (VS
 
 ## Topics in this guide
 
-- [Topic 1: Rename a Git branch using VSC](#topic1)
+- [Rename a Git branch using VSC](#rename-branch)
 
 {% include video.html %}
 
-## Topic 1: Rename a Git branch using VSC {#topic1}
+## Rename a Git branch using VSC {#rename-branch}
 
 1. Open VSC, and from the top menu choose **File** > **Open folder**.
 

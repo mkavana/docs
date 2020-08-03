@@ -26,11 +26,11 @@ This guide describes how to edit, or add content to, a markdown file using the V
 
 ## Topics in this guide
 
-- [Topic 1: Edit an existing markdown file using VSC](#topic1)
+- [Edit an existing markdown file using VSC](#edit-text-vsc)
 
 {% include video.html %}
 
-## Topic 1: Edit an existing markdown file using VSC {#topic1}
+## Edit an existing markdown file using VSC {#edit-text-vsc}
 
 1. Open VSC, and choose **File** > **Open folder** from the top menu.
 

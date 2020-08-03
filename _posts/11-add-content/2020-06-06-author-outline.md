@@ -19,12 +19,12 @@ This guide describes how to use author outlines to create content in markdown wi
 
 ## Topics in this guide
 
-- [Topic 1: An overview of author outlines](#topic1)
-- [Topic 2: Use a markdown element from an author outline](#topic2)
+- [An overview of author outlines](#outlines-overview)
+- [Use a markdown element from an author outline](#outlines-apply)
 
 {% include video.html %}
 
-## Topic 1: An overview of author outlines {#topic1}
+## An overview of author outlines {#outlines-overview}
 
 This topic describes what author outlines are, why they are used, and how to access them.
 
@@ -66,7 +66,7 @@ As an example, the following image lists the author outlines for the course **40
 > Where relevant, a list of deliverables and author outlines is available from the **Bill of Materials** (BOM) for course you are working on. Direct all your BOM related queries to your project manager.
 >
 
-## Topic 2: Use a markdown element from an author outline {#topic2}
+## Use a markdown element from an author outline {#outlines-apply}
 
 Complete the following steps to copy a markdown element from an author outline on GitHub, and paste the element into a markdown file in VSC.
 
@@ -136,7 +136,7 @@ Complete the following steps to copy a markdown element from an author outline o
 
 You have copied and pasted a markdown element from an author outline on GitHub into a markdown file in VSC successfully.
 
-> **Note**: As explained in [Topic 1: An overview of author outlines](#topic1), author outlines can be stored inside or outside a project's remote repo. To use a markdown element from an author outline that's *not* on GitHub, complete the following:
+> **Note**: As explained in [An overview of author outlines](#outlines-overview), author outlines can be stored inside or outside a project's remote repo. To use a markdown element from an author outline that's *not* on GitHub, complete the following:
 >
 > - Download the author outline from the designated **author outline storage location** to your computer. For example, download an author outline from SharePoint.
 > - Open the author outline you downloaded. For example, open the author outline in VSC.

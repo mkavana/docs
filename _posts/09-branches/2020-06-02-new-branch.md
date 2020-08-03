@@ -21,13 +21,13 @@ Creating a new branch to work on allows you to view, create and edit markdown fi
 
 ## Topics in this guide
 
-- [Topic 1: Create a new Git branch in VSC](#topic1)
-- [Topic 2: Branch naming conventions](#topic2)
-- [Topic 3: Example branch names](#topic3)
+- [Create a new Git branch in VSC](#create-git-branch)
+- [Branch naming conventions](#branch-name-convention)
+- [Example branch names](#example-branch-names)
 
 {% include video.html %}
 
-## Topic 1: Create a new Git branch in VSC {#topic1}
+## Create a new Git branch in VSC {#create-git-branch}
 
 Complete the following steps to create a new Git branch using VSC.
 
@@ -57,7 +57,7 @@ Complete the following steps to create a new Git branch using VSC.
 
 5. In the subsequent pane, enter a name for the branch you are creating and then press **Enter**.
 
-    The name of your new branch must conform to the branch naming convention described in [Topic 2: Branch naming conventions](#topic2).
+    The name of your new branch must conform to the branch naming convention described in [Branch naming conventions](#branch-name-convention).
 
     In the following image the example branch is named **m5techreviewkelly**.
 
@@ -75,11 +75,11 @@ Complete the following steps to create a new Git branch using VSC.
 
     ![VSC switched to new branch indicated in VSC status bar](../assets/images/09-branches/create/github/git-createbranch-007.png)
 
-    > **Note**: Your new branch is not on GitHub yet. Only *you* can access and see your new (local) branch, until you send your new branch to GitHub. Send (or **push**) your new branch to GitHub using the instructions provided in the guide [Upload (push) your changes]({{ site.baseurl }}/branches/push-branch.html). Pushing your branch to GitHub will ensure that your new branch is present on GitHub, backed up, and visible to other GitHub contributors.
+    > **Note**: Your new branch is not on GitHub yet. Only *you* can access and see your new (local) branch, until you send your new branch to GitHub. Send (or **push**) your new branch to GitHub using the instructions provided in the guide [Upload (push) your changes]({{site.baseurl}}/branches/push-branch.html). Pushing your branch to GitHub will ensure that your new branch is present on GitHub, backed up, and visible to other GitHub contributors.
 
 You have created a new branch using VSC successfully.
 
-## Topic 2: Branch naming conventions {#topic2}
+## Branch naming conventions {#branch-name-convention}
 
 Generally, each contributor (author, reviewer, etc.) must work in their own branch. A separate branch for each module is also required. This approach keeps the content separated per contributor, at each stage in the process, and on a module by module basis.
 
@@ -94,7 +94,7 @@ Use the following branch naming convention (all lower case) to name your new bra
 - `<task>` is a short code for the stage in the process the file is at. The task short codes are listed in the next section.
 - Add your `<surname>` as a suffix to distinguish your work from the work of other contributors.
 
-Examples of branch names are provided in [Topic 3: Example branch names](#topic3).
+Examples of branch names are provided in [Example branch names](#example-branch-names).
 
 ### Task short codes
 
@@ -109,7 +109,7 @@ Use the following task short codes in your branch name to indicate the stage in 
 |*Editor*|Copy editing|`copyedit`|
 |*Prepublication stylist*|Prepublication styling and formatting|`prepub`|
 
-## Topic 3: Example branch names {#topic3}
+## Example branch names {#example-branch-names}
 
 The following are examples of branch names that conform to the branch naming convention, with descriptions of how the branch names are constructed.
 
