@@ -13,20 +13,27 @@ include-in-quickstart: "false"
 video_url: "https://web.microsoftstream.com/embed/video/60192de2-c0fd-4c2c-82ad-b32bcae65d64?autoplay=false&amp;showinfo=true"
 ---
 
-This guide describes...
+This guide is currently being developed. Select another guide from the left sidebar menu instead.
+
+<!--
+uncomment to add content
 
 {% include prerequisites.html %}
 
 ## Topics in this guide
 
-- [Example](#example-shortname)
+- [Example topic full name](#example-shortname)
 
 {% include video.html %}
 
 ## Example {#example-shortname}
 
-Complete the following steps to..., as shown in the following sample image.
+Complete the following steps to...
 
-![Alt image text placeholder](../../assets/images/13-pull-requests/work-pr/azdev/img-placeholder.png)
+For example, in the following image, ...
+
+![Alt image text placeholder](../assets/images/13-pull-requests/work-pr/azdev/img-placeholder.png)
+
+-->
 
 {% include appendices.html %}
