@@ -37,7 +37,7 @@ Typical requirements for making changes to a protected branch include the follow
 
 Branches can be protected in different ways, like by role, and branching policies can vary between projects. Ask your project manager about the particular branching policies that apply to the project you're working on.
 
-> **Note**: The branching structures that apply to the different roles in a typical project are described in the guide [General project workflow]({{site.baseurl}}/workflow/general-workflow.html). For more information about branching policies, refer to [About protected branches](https://docs.github.com/github/administering-a-repository/about-protected-branches].
+> **Note**: The branching structures that apply to different roles within a project are described in the guide [General project workflow]({{site.baseurl}}/workflow/general-workflow.html). For more information about branching policies, refer to [About protected branches](https://docs.github.com/github/administering-a-repository/about-protected-branches).
 
 {% include appendices.html %}
 
