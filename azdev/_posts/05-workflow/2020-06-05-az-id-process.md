@@ -2,8 +2,8 @@
 layout: multi
 title: Instructional design review process
 subtitle: AzDevOps
-description:
-author:
+description: A guide to the AzDevOps instructional design review process
+author: eamonnk, mkavana
 date: 01 Jun 2020
 post-number: 5.5
 #category: workflow

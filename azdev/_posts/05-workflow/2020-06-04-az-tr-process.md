@@ -2,7 +2,7 @@
 layout: multi
 title: Technical review process
 subtitle: AzDevOps
-description: An overview of the AzDevOps Technical Review process.
+description: A guide to the AzDevOps Technical review process
 author: eamonnk, mkavana
 date: 01 Jun 2020
 post-number: 5.4
