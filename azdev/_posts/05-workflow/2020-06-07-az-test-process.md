@@ -2,8 +2,8 @@
 layout: multi
 title: Test process
 subtitle: AzDevOps
-description:
-author:
+description: A guide to the Test process for a typical project
+author: mkavana
 date: 01 Jun 2020
 post-number: 5.7
 #category: workflow
@@ -13,27 +13,28 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 
-This guide is currently being developed. Select another guide from the left sidebar menu instead.
+This guide describes the general **Test** process for a typical AzDevOps project.
 
-<!--
-uncomment to add content
+> **Note**: The test process described in this guide is generalized, and is not intended to capture the process entirely. Test processes can vary between projects. You should ask your project manager about the specific test processes that apply to the project you're working on.
+>
 
 {% include prerequisites.html %}
 
 ## Topics in this guide
 
-- [Example topic full name](#example-shortname)
+- [Overview of the test process](#az-test-overview)
 
 {% include video.html %}
 
-## Example {#example-shortname}
+## Overview of the test process {#az-test-overview}
 
-Complete the following steps to...
+In addition to reviews, the content developed for some projects must be tested at various stages in the project's life cycle. Examples of tests include checking the content for plagiarism, inclusive design, and hyperlink integrity. How, and when, tests are conducted can vary between projects. Ask your project manager about the specific test processes that apply to the project you're working on.
 
-For example, in the following image, ...
+The following are key points about the general test process.
 
-![Alt image text placeholder]((../assets/images/05-workflow/test/azdev/img-placeholder.png)
-
--->
+- Test are typically conducted on content that has passed the review stages (on a module-by-module basis, or when the content for a *complete* course has passed the review stages).
+- Most testers work outside the project's remote repository. For example, some tests are conducted on Microsoft Word Documents generated from the markdown files for a course.
+- Generally, any file changes required by a tester will be applied by a reviewer, editor or content author to the files in the project's remote repository. The reviewer, editor or content author will work with the tester to apply necessary changes to content, to progress the content through the test process successfully.
+- Most Testers don't usually need to create a Git 'test branch' to work in (as changes to files are normally applied by a reviewer).
 
 {% include appendices.html %}
