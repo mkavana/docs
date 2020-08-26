@@ -31,10 +31,6 @@
   GitHub: _posts/07-download-files/2020-06-02-clone-repo.md
   AzDev: azdev/_posts/07-download-files/2020-06-02-az-clone-repo.md
 -
-  # branches > update branch
-  GitHub: _posts/09-branches/2020-06-03-pull-updates.md
-  AzDev: azdev/_posts/09-branches/2020-06-03-az-pull-updates.md
--
   # branches > switch branch
   GitHub: _posts/09-branches/2020-06-04-switch-branch.md
   AzDev: azdev/_posts/09-branches/2020-06-04-az-switch-branch.md
