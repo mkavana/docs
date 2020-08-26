@@ -13,7 +13,7 @@ include-in-quickstart: "false"
 video_url: "none"
 ---
 
-In this guide, you will download (or clone) a copy of the course files from AzDevOps onto your computer.
+In this guide, you will download (or clone) a copy of the course files from AzDevOps onto your computer using the Visual Studio Code editor (VSC).
 
 ## Topics in this guide
 
@@ -23,11 +23,11 @@ In this guide, you will download (or clone) a copy of the course files from AzDe
 
 ## Clone the AzDevOps repo {#clone-azdevops}
 
-Complete the following steps to clone the project's repo from AzDevOps.
+Complete the following steps to clone the project's repository (repo) from AzDevOps using VSC.
 
 1. Open a web browser, go to the AzDevOps website at [https://dev.azure.com](https://dev.azure.com), and sign in.
 
-2. On the **Projects** tab, locate the project you require, and select the **Repos** icon.
+2. On the **Projects** tab, locate the project repo you want to clone, and select the **Repos** icon.
 
     For example, in the following image, the **Repos** icon for the project **example-repo** is selected.
 
@@ -55,7 +55,7 @@ Complete the following steps to clone the project's repo from AzDevOps.
 
     ![The 'VSC file explorer' set to clone the example repo into the folder 'C:\Windows\AzDevOp's](../assets/images/07-download-files/clone/azdev/az-clone-007.png)
 
-8. In VSC, wait for the **Cloning git repository** progress indicator to complete.
+8. In VSC, wait for the **Cloning git repository** progress indicator to complete (lower right side).
 
     ![The VSC 'Cloning git repository' progress indicator](../assets/images/07-download-files/clone/azdev/az-clone-008.png)
 
@@ -64,6 +64,9 @@ Complete the following steps to clone the project's repo from AzDevOps.
     ![The Visual Studio sign in page](../assets/images/07-download-files/clone/azdev/az-clone-009.png)
 
 10. In VSC, choose **Open** if asked **Would you like to open the cloned repository, or add it...**
+
+    > **Note**: In VSC, you can open a cloned repo from the top menu by using **File** > **Open folder**, and selecting the folder with the cloned repo.
+    >
 
     ![A prompt in VSC to open a cloned repository or add it to the current VSC workspace](../assets/images/07-download-files/clone/azdev/az-clone-010.png)
 
