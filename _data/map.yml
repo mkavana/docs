@@ -31,6 +31,10 @@
   GitHub: _posts/07-download-files/2020-06-02-clone-repo.md
   AzDev: azdev/_posts/07-download-files/2020-06-02-az-clone-repo.md
 -
+  # branches > delete branch
+  GitHub: _posts/09-branches/2020-06-07-delete-branch.md
+  AzDev: azdev/_posts/09-branches/2020-06-07-az-delete-branch.md
+-
   # branches > recover deleted branch
   GitHub: _posts/09-branches/2020-06-08-recover-branch.md
   AzDev: azdev/_posts/09-branches/2020-06-08-az-recover-branch.md
