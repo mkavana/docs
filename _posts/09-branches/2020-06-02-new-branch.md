@@ -1,8 +1,8 @@
 ---
-layout: multi
-title: Create new branch
-subtitle: GitHub
-description: A guide to creating a new branch in a GitHub repository using VSC
+layout: page
+title: Create new branch in VSC
+subtitle:
+description: A guide to creating a new branch in a Git repository using VSC
 author: mkavana
 date: 01 Jun 2020
 post-number: 9.2
@@ -33,57 +33,63 @@ Complete the following steps to create a new Git branch using VSC.
 
 1. Open **VSC** and go to **File** > **Open Folder**.
 
-    ![VSC window with file 'open folder' dialogue](../assets/images/09-branches/create/github/git-createbranch-001.png)
+    ![VSC window with file 'open folder' dialogue](../assets/images/09-branches/create/git-createbranch-001.png)
 
-2. Go to where you cloned the project's GitHub repository on your computer (your local repo). Choose **Select Folder**.
+2. Go to where you cloned the project's GitHub or AzDevOps repository on your computer (your local repo). Choose **Select Folder**.
 
-    The folder for your local repo should have the same name as the project's GitHub repo you cloned, for example: **azfundedu**.
+    The folder for your local repo should have the same name as the project's GitHub/ AzDevOps repo you cloned, for example: **azfundedu**.
 
-    ![Open folder dialogue](../assets/images/09-branches/create/github/git-createbranch-002.png)
+    ![Open folder dialogue](../assets/images/09-branches/create/git-createbranch-002.png)
 
-3. Your local repo's folder and file structure should be visible in the VSC explorer window. The VSC **status bar**, at the bottom of the editor, indicates the name of branch that VSC is currently switched to.
+3. Select the VSC Explorer icon (left sidebar).
 
-    In the following image, the **master** branch is shown in the VSC status bar. Switching VSC to a different branch is described in the guide [Switch branch]({{site.baseurl}}/branches/switch-branch.html).
+    Your local repo's folder and file structure should be visible in the VSC explorer window. The VSC **status bar**, at the bottom of the editor, indicates the name of branch that VSC is currently switched to.
 
-    ![Example repo folder structure in VSC explorer window and VSC status bar](../assets/images/09-branches/create/github/git-createbranch-003.png)
+    For example, in the following image, the **master** branch is shown in the VSC status bar. Switching VSC to a different branch is described in the guide [Switch branch]({{site.baseurl}}/branches/switch-branch.html).
+
+    ![Example repo folder structure in VSC explorer window and VSC status bar](../assets/images/09-branches/create/git-createbranch-003.png)
 
     > **Note**: VSC opens in the same state it was in when you last closed it. Always check which branch, folders and files VSC is switched to. If you closed VSC previously using the `X` icon, without closing the folder in VSC, VSC may be switched to the wrong branch. You *must* ensure that VSC is switched to the correct branch to avoid inadvertently overwriting your files. The VSC **status bar**, at the bottom of the editor, indicates the name of branch that VSC is currently switched to.
+    >
 
 4. Go to **View** > **Command Palette** and type **git branch**. From the resulting list of commands, choose `Git Create Branch From...`.
 
-    ![List of Git commands available from the VSC Command Palette](../assets/images/09-branches/create/github/git-createbranch-004.png)
+    ![List of Git commands available from the VSC Command Palette](../assets/images/09-branches/create/git-createbranch-004.png)
 
     > **Note**: There is another command called `Git Create Branch`. *Do not use this command*, doing so will base your new branch on whatever branch is listed in the VSC status bar. Select the correct command `Git Create Branch From...` instead.
+    >
 
-5. In the subsequent pane, enter a name for the branch you are creating and then press **Enter**.
+5. In the subsequent pane, enter a name for the branch you're creating, and then press **Enter**.
 
     The name of your new branch must conform to the branch naming convention described in [Branch naming conventions](#branch-name-convention).
 
-    In the following image the example branch is named **m5techreviewkelly**.
+    For example, in the following image, the new branch is named **m5techreviewkelly**.
 
-    ![Example branch name typed into VSC Command Palette](../assets/images/09-branches/create/github/git-createbranch-005.png)
+    ![Example branch name typed into VSC Command Palette](../assets/images/09-branches/create/git-createbranch-005.png)
 
 6. From the list of branches in the subsequent pane, select the branch that your new branch will be based on (i.e. set the **base branch** for your new branch).
 
-    In the following image the branch **m5authekelly** is selected as the base branch.
+    For example, in the following image, the branch **m5authekelly** is selected as the base branch.
 
-    ![Example base branch selected from VSC Command Palette](../assets/images/09-branches/create/github/git-createbranch-006.png)
+    ![Example base branch selected from VSC Command Palette](../assets/images/09-branches/create/git-createbranch-006.png)
 
     > **Note**: If you are *not* prompted to choose a base branch, you may have selected the wrong command `Git Create Branch`. Return to **Step 4** and select the correct command `Git Create Branch From...` instead.
+    >
 
 7. Your new branch should open in VSC. The VSC status bar will indicate that VSC has switched to the new branch you created.
 
-    ![VSC switched to new branch indicated in VSC status bar](../assets/images/09-branches/create/github/git-createbranch-007.png)
+    ![VSC switched to new branch indicated in VSC status bar](../assets/images/09-branches/create/git-createbranch-007.png)
 
-    > **Note**: Your new branch is not on GitHub yet. Only *you* can access and see your new (local) branch, until you send your new branch to GitHub. Send (or **push**) your new branch to GitHub using the instructions provided in the guide [Upload (push) your changes]({{site.baseurl}}/branches/push-branch.html). Pushing your branch to GitHub will ensure that your new branch is present on GitHub, backed up, and visible to other GitHub contributors.
+    > **Note**: Your new branch is not on GitHub/ AzDevOps yet. Only *you* can access and see your new (local) branch, until you send your new branch to the project's remote repo on GitHub/ AzeDevOps. To send (or **push**) your new branch to the remote repo, refer to [Upload (push) your changes]({{site.baseurl}}/branches/push-branch.html). Pushing your branch to the remote repo will ensure that your new branch is present on GitHub/ AzDevOps, backed up, and visible to other contributors.
+    >
 
-You have created a new branch using VSC successfully.
+You've created a new branch using VSC successfully.
 
 ## Branch naming conventions {#branch-name-convention}
 
 Generally, each contributor (author, reviewer, etc.) must work in their own branch. A separate branch for each module is also required. This approach keeps the content separated per contributor, at each stage in the process, and on a module by module basis.
 
-A new branch is usually created from the master branch of the project's GitHub repo. When you create a new branch, your branch name should describe your branch's content and make the branch's purpose and owner clear to other contributors.
+A new branch is usually created from the master branch of the project's remote repo. When you create a new branch, your branch name should describe your branch's content, and make the branch's purpose and owner clear to other contributors.
 
 Use the following branch naming convention (all lower case) to name your new branch:
 

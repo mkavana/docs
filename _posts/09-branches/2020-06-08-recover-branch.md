@@ -18,12 +18,13 @@ This guide describes how to restore a deleted branch using GitHub.
 > **Note**: The following instructions *only* apply to restoring a branch that was merged previously, and then deleted via a Pull Request on GitHub. The process for restoring branches deleted by other means is beyond the scope of this guide.
 >
 > As an example, this guide uses the WayPoint Ventures' test repository (**Testrepo1**) on GitHub at [https://github.com/WaypointVentures/Testrepo1/](https://github.com/WaypointVentures/Testrepo1/). Modify the following instructions to suit your preferred Git repository (repo).
+>
 
 {% include prerequisites.html %}
 
 ## Topics in this guide
 
-- [Restore a deleted branch using GitHub](#restore-branch)
+- [Restore a deleted branch to GitHub](#restore-branch)
 
 {% include video.html %}
 

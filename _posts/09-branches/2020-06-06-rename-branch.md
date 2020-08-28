@@ -15,7 +15,8 @@ video_url: "none"
 
 This guide describes how to rename a Git branch using the Visual Studio Code (VSC) editor.
 
-> **Note**: Take care when renaming a branch, and only rename a branch if you are sure that you need to.
+> **Note**: Take care when renaming a branch, and *only rename a branch if you're sure you need to*.
+>
 
 {% include prerequisites.html %}
 
@@ -27,7 +28,7 @@ This guide describes how to rename a Git branch using the Visual Studio Code (VS
 
 ## Rename a Git branch using VSC {#rename-branch}
 
-1. Open VSC, and from the top menu choose **File** > **Open folder**.
+1. Open VSC, and choose **File** > **Open folder** (top menu).
 
     !['Open folder' top menu option in VSC](../assets/images/09-branches/rename/rename-001.png)
 
@@ -39,7 +40,7 @@ This guide describes how to rename a Git branch using the Visual Studio Code (VS
 
     !['New Terminal' top menu option in VSC](../assets/images/09-branches/rename/rename-003.png)
 
-    > **Note**: The **VSC status bar**, at the bottom of the editor window, indicates the name of the branch that VSC is currently switched to. In the previous image, the **VSC status bar** indicates that VSC is currently switched to the branch called **old-name**. The branch name in the **VSC status bar** will change to the new branch name after you have renamed the branch.
+    > **Note**: The **VSC status bar**, at the bottom of the editor window, indicates the name of the branch that VSC is currently switched to. In the previous image, the **VSC status bar** indicates that VSC is currently switched to the branch called **old-name**. The branch name in the **VSC status bar** will change to the new branch name after you've renamed the branch.
     >
 
 4. In the **VSC Terminal**, type the following command to rename your local branch, then press **Enter**.
@@ -59,7 +60,7 @@ This guide describes how to rename a Git branch using the Visual Studio Code (VS
     > **Note**: The Git branch command option `-m` is short for **move**, and the `-m` command option is also used to rename a Git branch. Information about the Git move (rename) branch command, and other options, is available from the [Software Freedom Conservancy's Git branch documentation](https://git-scm.com/docs/git-branch).
     >
 
-5. Delete the old branch name from GitHub by typing the following command into the **VSC Terminal**, then press **Enter**:
+5. Delete the old branch name from GitHub/ AzDevOps by typing the following command into the **VSC Terminal**, and then press **Enter**:
 
     ```bash
     git push origin --delete old-name
@@ -67,11 +68,11 @@ This guide describes how to rename a Git branch using the Visual Studio Code (VS
 
     !['Git delete branch' command in the 'VSC Terminal'](../assets/images/09-branches/rename/rename-005a.png)
 
-    A message in the **VSC Terminal** confirms that the branch is deleted.
+    A message in the **VSC Terminal** confirms that the branch is deleted from GitHub/ AzDevOps.
 
     !['Git delete branch' confirmation message the 'VSC Terminal'](../assets/images/09-branches/rename/rename-005b.png)
 
-6. Push (send) the new branch name to GitHub by typing the following command into the **VSC Terminal**, then press **Enter**.
+6. Push (send) the new branch name to GitHub/ AzDevOps by typing the following command into the **VSC Terminal**, and then press **Enter**.
 
     ```bash
     git push origin new-name
@@ -79,11 +80,11 @@ This guide describes how to rename a Git branch using the Visual Studio Code (VS
 
     !['Git push new branch name' command in the 'VSC Terminal'](../assets/images/09-branches/rename/rename-006a.png)
 
-    A message in the **VSC Terminal** confirms that the branch is renamed.
+    A message in the **VSC Terminal** confirms that the branch is renamed on GitHub/ AzDevOps.
 
     !['Git push new branch name' confirmation message the 'VSC Terminal'](../assets/images/09-branches/rename/rename-006b.png)
 
-7. Reset the link between your renamed local branch and the new (upstream) branch you pushed to GitHub by typing the following command into the **VSC Terminal**, and then press **Enter**.
+7. Reset the link between your renamed local branch and the new (upstream) branch you pushed to GitHub/ AzDevOps by typing the following command into the **VSC Terminal**, and then press **Enter**.
 
     ```bash
     git push origin -u new-name
@@ -95,11 +96,11 @@ This guide describes how to rename a Git branch using the Visual Studio Code (VS
 
     !['Everything up-to-date' confirmation message the 'VSC Terminal'](../assets/images/09-branches/rename/rename-007b.png)
 
-8. The **VSC status bar** should indicate that VSC is currently switched to your renamed branch. You can now make, save, stage, commit and push your changes between the renamed branch and GitHub.
+8. The **VSC status bar** should indicate that VSC is currently switched to your renamed branch. You can now make, save, stage, commit, and push file changes between the renamed local branch and GitHub/ AzDevOps.
 
     ![Current branch set to new branch name in the 'VSC status bar'](../assets/images/09-branches/rename/rename-008.png)
 
-You have renamed a branch using VSC successfully.
+You've renamed a branch using VSC successfully.
 
 {% include appendices.html %}
 
