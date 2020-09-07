@@ -5,9 +5,9 @@ subtitle: GitHub
 description: A guide to cloning a project's GitHub repository
 author: mkavana
 date: 01 Jun 2020
-post-number: 7.2
+post-number: 7.3
 category: download-files
-position-in-category: 2
+position-in-category: 3
 include-in-pre-reqs: "true"
 include-in-quickstart: "true"
 video_url: "none"
