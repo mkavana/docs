@@ -10,6 +10,7 @@ category: pre-pub
 position-in-category: 3
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 
@@ -25,8 +26,6 @@ This guide describes how to use the software tools **convert_md_to_docx \.bat** 
 >
 > As part of the conversion process, any images and graphics linked in the markdown file will be embedded into the converted Word documents. Before you begin converting files, copy the corresponding image and graphics directory (**media**) for the markdown files, and paste it into the markdown files directory. Ensure you paste the (**media**) directory on correct filepath, relative to image links in the markdown files.
 >
-
-<!-- {% include prerequisites.html %} -->
 
 ## Topics in this guide
 

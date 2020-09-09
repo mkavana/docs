@@ -10,12 +10,11 @@ category: pre-pub
 position-in-category: 2
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 
 This guide describes how to download and install Pandoc, and setup additional software tools for converting Markdown files (**\.md**) into Microsoft Word documents (**\.docx**).
-
-<!-- {% include prerequisites.html %} -->
 
 ## Topics in this guide
 

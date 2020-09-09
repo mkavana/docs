@@ -10,6 +10,7 @@ post-number: 11.2
 #position-in-category: 2
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

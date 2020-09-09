@@ -8,8 +8,9 @@ date: 01 Jun 2020
 post-number: 9.1
 category: branches
 position-in-category: 1
-include-in-pre-reqs: "false"
+include-in-pre-reqs: "True"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

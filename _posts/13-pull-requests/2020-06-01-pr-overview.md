@@ -10,6 +10,7 @@ category: pull-requests
 position-in-category: 1
 include-in-pre-reqs: "true"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

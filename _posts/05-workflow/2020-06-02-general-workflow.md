@@ -10,6 +10,7 @@ category: workflow
 position-in-category: 2
 include-in-pre-reqs: "true"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "https://web.microsoftstream.com/embed/video/eab2fdaf-337d-4ea4-a30f-7301482a34fd?autoplay=false&amp;showinfo=true"
 ---
 

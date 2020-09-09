@@ -10,6 +10,7 @@ category: download-files
 position-in-category: 3
 include-in-pre-reqs: "true"
 include-in-quickstart: "true"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

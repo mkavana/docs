@@ -9,7 +9,8 @@ post-number: 3.5
 category: install
 position-in-category: 5
 include-in-pre-reqs: "true"
-include-in-quickstart: "true"
+include-in-quickstart: "false"
+include-in-azdevops-quickstart: "true"
 video_url: "none"
 ---
 

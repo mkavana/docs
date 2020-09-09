@@ -10,6 +10,7 @@ category: branches
 position-in-category: 7
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

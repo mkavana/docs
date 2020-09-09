@@ -10,6 +10,7 @@ post-number: 13.4
 #position-in-category: 4
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "true"
 video_url: "https://web.microsoftstream.com/embed/video/3b533444-94f5-46c5-97f8-52d8fca5c81c?autoplay=false&amp;showinfo=true"
 ---
 
