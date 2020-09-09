@@ -1,0 +1,45 @@
+<div id="az-quickstart-builder">
+    {% assign counter = 0 %}
+    {% assign counter1 = 0 %}
+    {% assign lbrace-pcent = "{%" %}
+    {% assign pcent = '%' %}
+    {% assign rbrace = '}' %}
+    {% assign pcent-rbrace = pcent | append: rbrace %}
+    {% assign incl-pre = " include prerequisites.html" %}
+    {% assign incl-vid = " include video.html" %}
+    {% assign incl-pag = " include paginator.html" %}
+    {% assign incl-apn = " include appendices.html" %}
+    {% assign site-base = "{{site.baseurl}}" %}
+    <h2>Guides in this quick start</h2>
+    <p>This quick start includes the following guides:</p>
+    <ol>
+        {% assign ordered-posts = site.posts | where: 'include-in-azdevops-quickstart', "true" | sort: 'post-number' %}
+        {% for post in ordered-posts %}
+        {% assign counter = counter | plus: 1 %}
+        <li>
+            <a href="{{site.baseurl}}/azdev/az-quickstart.html#guide{{counter}}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
+<div id="az-single-guide">
+    {% assign sorted-posts = site.posts | where: 'include-in-azdevops-quickstart', "true" | sort: 'post-number' %}
+    {% for post in sorted-posts %}
+    {% assign counter1 = counter1 | plus: 1 %}
+    <h1 id="guide{{ counter1 }}">{{ counter1 }}: {{ post.title }}</h1>
+    <div>{{
+        post.content
+        | replace: 'div id="prerequisites"', 'div id="prerequisites" style="display: none;"'
+        | replace: 'div id="appendices"', 'div id="appendices" style="display: none;"'
+        | replace: 'div class="paginator"', 'div class="paginator" style="display: none;"'
+        | remove: lbrace-pcent
+        | remove: pcent-rbrace
+        | remove: incl-pre
+        | remove: incl-vid
+        | remove: incl-pag
+        | remove: incl-apn
+        | replace: site-base, "/docs-v2-DEV"
+        | markdownify
+    }}</div>
+    {% endfor %}
+</div>
