@@ -3,13 +3,14 @@ layout: page
 title: Links to useful resources
 subtitle: Appendix D
 description:
-author:
+author: mkavana
 date: 01 Jun 2020
 post-number: 17.4
 category: appendices
 position-in-category: 4
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

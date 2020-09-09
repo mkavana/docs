@@ -8,8 +8,9 @@ date: 01 Jun 2020
 post-number: 13.5
 category: pull-requests
 position-in-category: 5
-include-in-pre-reqs: "false"
+include-in-pre-reqs: "true"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

@@ -8,10 +8,10 @@ date: 01 Jun 2020
 post-number: 5.1
 category: workflow
 position-in-category: 1
-include-in-pre-reqs: "false"
+include-in-pre-reqs: "true"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
-#video_url: "https://web.microsoftstream.com/embed/video/eab2fdaf-337d-4ea4-a30f-7301482a34fd"
 ---
 
 This guide explains the key technologies, terms and concepts that are relevant to the content development and review processes described throughout this website.

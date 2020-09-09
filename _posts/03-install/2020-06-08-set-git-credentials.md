@@ -10,6 +10,7 @@ category: install
 position-in-category: 8
 include-in-pre-reqs: "true"
 include-in-quickstart: "true"
+include-in-azdevops-quickstart: "true"
 video_url: "none"
 ---
 

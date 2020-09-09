@@ -8,8 +8,9 @@ date: 01 Jun 2020
 post-number: 11.7
 category: add-content
 position-in-category: 7
-include-in-pre-reqs: "false"
+include-in-pre-reqs: "true"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "https://web.microsoftstream.com/embed/video/6e3c80aa-76ee-46d1-81d8-55d7dadfd106?autoplay=false&amp;showinfo=true"
 ---
 

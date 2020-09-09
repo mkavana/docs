@@ -8,8 +8,9 @@ date: 01 Jun 2020
 post-number: 3.6
 category: install
 position-in-category: 6
-include-in-pre-reqs: "true"
-include-in-quickstart: "true"
+include-in-pre-reqs: "false"
+include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

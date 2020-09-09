@@ -10,6 +10,7 @@ category: pre-pub
 position-in-category: 4
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 
@@ -19,8 +20,6 @@ This guide describes how to attach the style template file **template \.dotx** t
 >
 > Typically, only the styles **Heading 1**, **2**, **3**, **4**, **5**, and **Hyperlink** are applied by Pandoc during conversion. For all other text content, Pandoc applies the style **Normal/ Paragraph normal**. So, some content must be styled "manually" in Microsoft Word.
 >
-
-<!-- {% include prerequisites.html %} -->
 
 ## Topics in this guide
 

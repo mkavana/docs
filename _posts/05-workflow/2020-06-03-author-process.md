@@ -10,6 +10,7 @@ category: workflow
 position-in-category: 3
 include-in-pre-reqs: "false"
 include-in-quickstart: "false"
+include-in-azdevops-quickstart: "false"
 video_url: "none"
 ---
 

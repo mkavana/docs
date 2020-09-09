@@ -1,11 +1,17 @@
 <div id="breadcrumbs">
 	{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-	
 	<a href="{{site.baseurl}}/">Home</a>
-		{% for crumb in crumbs offset: 1 %}
-  			{% if forloop.last %}
-			/ {{ page.category | capitalize }}
-			/ {{ page.title }}
-    		{% endif %}
-    	{% endfor %}
+	{% for crumb in crumbs offset: 1 %}
+	{% if page.lang == "GitHub" %}
+		{% if forloop.last %}
+		/ {{ page.category | capitalize }}
+		/ {{ page.title }}
+	    {% endif %}
+	{% else %}
+		{% if forloop.last %}
+		/ AzDevOps
+		/ {{ page.title }}
+	    {% endif %}
+	{% endif %}
+    {% endfor %}
 </div>
