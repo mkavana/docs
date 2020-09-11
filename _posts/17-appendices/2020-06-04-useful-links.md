@@ -78,6 +78,12 @@ This guide provides links to resources that are useful for developing content in
 
 - *GitHub guides*. For additional guides to using GitHub, refer to [GitHub Guides](https://guides.github.com/).
 
+### Azure DevOps
+
+- *Create an AzDevOps account*. To create an AzDevOps account, refer to [Sign up, sign in to Azure DevOps](https://docs.microsoft.com/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops).
+
+- *Azure DevOps documentation*. For more information about Azure DevOps, refer to the [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/?view=azure-devops)
+
 ### Markdown
 
 - *Microsoft markdown syntax reference*. For a reference guide to Microsoft's markdown syntax, refer to [Docs Markdown reference](https://docs.microsoft.com/contribute/markdown-reference).
@@ -85,6 +91,18 @@ This guide provides links to resources that are useful for developing content in
 - *GitHub markdown syntax guide*. For GitHub's guide to the markdown syntax, refer to [Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 
 - *Code blocks*. For a list of supported languages for code blocks, and how to specify them in markdown, refer to [GitHub linguist languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml), and the webpage [Creating and highlighting code blocks](https://help.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks).
+
+### Contributing to Microsoft Docs
+
+For information about contributing to Microsoft Docs, refer to the following resources (**v-** or Microsoft user account required).
+
+- *Microsoft Learn contributors' guide*. The [Microsoft Learn contributors' guide](https://review.docs.microsoft.com/learn-docs/docs/?branch=master) provides information about developing content for Microsoft *Learn*.
+
+- *Microsoft Docs contributors' guide*. The [Microsoft Docs contributors' guide](https://review.docs.microsoft.com/help/contribute/?branch=master) provides information about developing content for Microsoft *Docs*. Microsoft Learn runs on the Microsoft Docs platform, and contributors to Microsoft Learn should find the Microsoft Docs contributors' guide useful.
+
+- *Microsoft style guide*. The [Microsoft style guide](https://styleguides.azurewebsites.net/StyleGuide/List) is a useful reference for terminology.
+
+- *Microsoft Learn instructional design web page*. The [Microsoft Learn instructional design web page](https://aka.ms/learn/id) provides information about Microsoft's instructional design practices.
 
 ### Pandoc
 
