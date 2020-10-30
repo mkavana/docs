@@ -37,7 +37,7 @@ sections: [['quickstart','Quick start'],['install','Install software'],['workflo
 
 # Keep as an empty string if served up at the root. If served up at a specific
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
-baseurl: '/docs-v2-DEV'
+baseurl: '/docs'
 
 # Dates are not included in permalinks
 permalink: none
