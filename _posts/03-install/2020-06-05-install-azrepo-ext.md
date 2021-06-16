@@ -20,6 +20,35 @@ This guide describes how to download and install Microsoft's **Azure Repos** ext
 >
 > More information about the extension is available from the Visual Studio Marketplace webpage [Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vsts.team).
 
+## Important update
+
+Microsoft removed the Azure Repos VSC extension from Visual Studio Marketplace on Nov 6 2020, refer to [https://github.com/microsoft/azure-repos-vscode/blob/master/DEPRECATED.md](https://github.com/microsoft/azure-repos-vscode/blob/master/DEPRECATED.md).
+
+Despite this, some Microsoft projects use Team Foundation with Azure DevOps for version control, instead of Git and GitHub. If you work with these projects, you might need to install the Azure Repos VSC extension. Ask your project manager if the project you're working on requires the Azure Repos extension.
+
+You can no longer install the extension from Visual Studio Marketplace (as described in this guide). Instead, complete the following steps to obtain and install the extension.
+
+1. In a web browser, go to [https://marketplace.visualstudio.com/items?itemName=ms-vsts.team](https://marketplace.visualstudio.com/items?itemName=ms-vsts.team).
+
+2. Choose the **Version History** tab.
+
+3. Select **Download**, beside version **1.161.1**, and save the file `ms-vsts.team-1.161.1.vsix` to your computer.
+
+4. Open VSC, and then select **Terminal** > **New Terminal** or use **CRTL** + **SHIFT** + **'**.
+
+5. In the terminal, navigate to where you saved `ms-vsts.team-1.161.1.vsix`.
+
+6. Enter the following command to install the extension:
+
+    ``````bash
+    code --install-extension ms-vsts.team-1.161.1.vsix
+    ``````
+
+> **Note**: You can ignore warnings in VSC about using a depreciated ("sunsetted") extension.
+>
+> For help, refer to the Visual Studio Code documentation article [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).
+>
+
 {% include prerequisites.html %}
 
 ## Topics in this guide
