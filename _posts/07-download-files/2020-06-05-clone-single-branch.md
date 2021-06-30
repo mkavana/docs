@@ -68,7 +68,7 @@ This guide describes how to clone a single folder (directory) on a specific bran
     Enter the following command into the VSC terminal.
 
     ```sh
-    git clone --filter=blob:none --sparse https://github.com/mkavana/repo-example.git ---branch Mod02-branch --single-branch
+    git clone --filter=blob:none --sparse https://github.com/mkavana/repo-example.git --branch Mod02-branch --single-branch
     ```
 
     ![alt text](../assets/images/07-download-files/single-dir/github/single-dir-008.png)
